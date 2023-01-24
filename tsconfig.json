@@ -10,9 +10,7 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es6",
-    "lib": [
-      "es6"
-    ],
+    "lib": ["es6"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "strictNullChecks": false,
@@ -31,32 +29,17 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "paths": {
-      "@atoms/*": [
-        "libs/components/atoms/*"
-      ],
-      "@molecules/*": [
-        "libs/components/molecules/*"
-      ],
-      "@organisms/*": [
-        "libs/components/organisms/*"
-      ],
-      "@ui/*": [
-        "libs/ui/src/*"
-      ],
-      "@provider/*": [
-        "libs/provider/src/*"
-      ]
+      "@atoms/*": ["libs/components/atoms/*"],
+      "@molecules/*": ["libs/components/molecules/*"],
+      "@organisms/*": ["libs/components/organisms/*"],
+      "@ui/*": ["libs/ui/src/*"],
+      "@provider/*": ["libs/provider/src/*"]
     },
     "noEmit": true,
     "incremental": true,
     "isolatedModules": true
   },
-  "include": [
-    "**/*.js",
-    "**/*.jsx",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
+  "include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
   "exclude": [
     ".next",
     "node_modules",
