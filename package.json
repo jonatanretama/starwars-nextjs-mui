@@ -41,7 +41,7 @@
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@commitlint/config-nx-scopes": "17.0.0",
-    "@emotion/babel-plugin": "11.10.2",
+    "@emotion/babel-plugin": "^11.10.5",
     "@next/bundle-analyzer": "12.3.0",
     "@storybook/addon-essentials": "6.5.10",
     "@storybook/addon-events": "6.2.9",

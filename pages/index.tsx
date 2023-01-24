@@ -6,7 +6,7 @@ import { ButtonStyled } from '@atoms/ButtonStyled';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home() {
+export const Home = () => {
   return (
     <>
       <Head>
@@ -117,4 +117,4 @@ export default function Home() {
       </main>
     </>
   );
-}
+};
