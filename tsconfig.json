@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "strictNullChecks": false,
     "baseUrl": ".",
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "jsxImportSource": "@emotion/react",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
