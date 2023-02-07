@@ -5,3 +5,9 @@ export type SwapiError = {
 };
 
 export type TSwapiError = AxiosError<SwapiError>;
+
+export type TSwapiData = {
+  count: number;
+  next?: string | null;
+  previous?: string | null;
+};

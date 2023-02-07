@@ -1,10 +1,10 @@
 import { Box } from '@mui/material';
 import { FC, useState } from 'react';
 import { useGetPeople } from 'libs/hooks';
-import { PeopleAttrs } from 'libs/models';
+import { TPeopleAttrs } from 'libs/models';
 
 export const PeopleCard: FC = () => {
-  const [people, setPeople] = useState<PeopleAttrs[]>([]);
+  const [people, setPeople] = useState<TPeopleAttrs[]>([]);
   const { isSuccess } = useGetPeople({
     options: {
       onSuccess: result => {
