@@ -33,11 +33,17 @@
     "esModuleInterop": true,
     "paths": {
       "@atoms/*": ["libs/components/atoms/*"],
+      "@atoms": ["libs/components/atoms/index.ts"],
       "@molecules/*": ["libs/components/molecules/*"],
+      "@molecules": ["libs/components/molecules/index.ts"],
       "@organisms/*": ["libs/components/organisms/*"],
+      "@organisms": ["libs/components/organisms/index.ts"],
       "@ui/*": ["libs/ui/src/*"],
       "@ui": ["libs/ui/src/index.ts"],
-      "@provider/*": ["libs/provider/src/*"]
+      "@provider/*": ["libs/provider/src/*"],
+      "@provider": ["libs/provider/src/index.ts"],
+      "@utils/*": ["libs/utils/src/*"],
+      "@utils": ["libs/utils/src/index.ts"]
     },
     "noEmit": true,
     "incremental": true,
