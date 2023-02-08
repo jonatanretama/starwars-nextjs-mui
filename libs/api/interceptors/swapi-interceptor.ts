@@ -1,5 +1,5 @@
 import type { AxiosResponse, AxiosError } from 'axios';
-import type { SwapiError } from 'libs/models';
+import type { SwapiError } from '@models';
 
 export const SwapiInterceptor = {
   responseSuccess({ data, ...rest }: AxiosResponse) {

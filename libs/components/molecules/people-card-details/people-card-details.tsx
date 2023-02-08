@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Box, Typography } from '@mui/material';
 import { FC, useState, useEffect } from 'react';
-import { useGetPlanetsById, useGetPeopleById } from 'libs/hooks';
-import { TPeopleAttrs } from 'libs/models';
+import { useGetPlanetsById, useGetPeopleById } from '@hooks';
+import { TPeopleAttrs } from '@models';
 import Image from 'next/image';
 import { PeopleContent } from '@atoms/PeopleContent/people-content';
 
-import { capitalizedKeysArr, getSwapiId } from 'libs/utils';
+import { capitalizedKeysArr, getSwapiId } from '@utils';
 
 export type TPeopleCardDetailsProps = {
   details: TPeopleAttrs;

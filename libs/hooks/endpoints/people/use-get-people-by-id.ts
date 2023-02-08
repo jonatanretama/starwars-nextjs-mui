@@ -1,7 +1,7 @@
 import { useQuery, UseQueryOptions } from 'react-query';
-import type { TPeopleAttrs, TSwapiError } from 'libs/models';
+import type { TPeopleAttrs, TSwapiError } from '@models';
 import type { AxiosResponse } from 'axios';
-import { swapiInstance } from 'libs/api';
+import { swapiInstance } from '@api/swapi-api';
 
 type TQueryData = AxiosResponse<TPeopleAttrs>;
 type TOptions = UseQueryOptions<TQueryData, TSwapiError>;

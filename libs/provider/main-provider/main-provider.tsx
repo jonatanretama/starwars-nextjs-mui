@@ -4,7 +4,7 @@ import { ReactQueryDevtools } from 'react-query/devtools';
 import { CacheProvider } from '@emotion/react';
 import type { EmotionCache } from '@emotion/cache';
 import { ThemeProvider, CssBaseline } from '@mui/material';
-import { createEmotionCache, theme } from '../../../ui/src/config';
+import { createEmotionCache, theme } from '@ui/config';
 
 const clientSideEmotionCache = createEmotionCache();
 
