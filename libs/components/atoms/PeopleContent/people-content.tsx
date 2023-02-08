@@ -8,6 +8,7 @@ export type TPeopleContentProps = {
   planetId?: string;
 } & TPeopleDetailsArr;
 
+/* TODO: Update font styles */
 export const PeopleContent: FC<TPeopleContentProps> = ({
   planetName,
   keyName,
@@ -21,7 +22,7 @@ export const PeopleContent: FC<TPeopleContentProps> = ({
         variant="body1"
         sx={{ fontWeight: 'bold', display: 'flex', gap: 1 }}>
         {keyName}:&nbsp;
-        <Link href={`/planets/${planetId}`}>
+        <Link href={`/planets/${encodeURIComponent(planetId)}`}>
           <Typography variant="body1">{planetName}</Typography>
         </Link>
       </Typography>

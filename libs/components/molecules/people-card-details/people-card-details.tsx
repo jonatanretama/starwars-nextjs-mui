@@ -4,7 +4,6 @@ import { FC, useState, useEffect } from 'react';
 import { useGetPlanetsById, useGetPeopleById } from 'libs/hooks';
 import { TPeopleAttrs } from 'libs/models';
 import Image from 'next/image';
-import Link from 'next/link';
 import { PeopleContent } from '@atoms/PeopleContent/people-content';
 
 import { capitalizedKeysArr, getSwapiId } from 'libs/utils';
@@ -27,6 +26,7 @@ export const PeopleCardDetails: FC = () => {
   // Get /people/:id
   const { isSuccess } = useGetPeopleById({
     // Static id is just for testing
+    // TODO: Send id as prop
     id: 1,
     options: {
       onSuccess: result => {
@@ -70,6 +70,7 @@ export const PeopleCardDetails: FC = () => {
               md: 'none',
             },
           }}>
+          {/* TODO: Set dynamic image */}
           <Image
             priority
             src="/images/anakin-sky-walker.webp"
@@ -87,6 +88,7 @@ export const PeopleCardDetails: FC = () => {
             }}
           />
         </Box>
+
         <Box>
           {isSuccess &&
             peopleDetails &&
@@ -116,6 +118,7 @@ export const PeopleCardDetails: FC = () => {
           justifyContent: 'center',
           alignItems: 'center',
         }}>
+        {/* TODO: Update font styles */}
         {isSuccess && peopleDetails && (
           <Typography variant="h6">{peopleDetails.name}</Typography>
         )}
