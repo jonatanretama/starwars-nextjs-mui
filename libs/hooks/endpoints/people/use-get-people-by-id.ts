@@ -1,29 +1,23 @@
 import { useQuery, UseQueryOptions } from 'react-query';
-import type { TPeopleData, TSwapiError } from 'libs/models';
+import type { TPeopleAttrs, TSwapiError } from 'libs/models';
 import type { AxiosResponse } from 'axios';
 import { swapiInstance } from 'libs/api';
 
-type TQueryData = AxiosResponse<TPeopleData>;
+type TQueryData = AxiosResponse<TPeopleAttrs>;
 type TOptions = UseQueryOptions<TQueryData, TSwapiError>;
 
-export type UseGetPeopleProps = {
-  filters?: {
-    search?: string;
-    page?: string;
-  };
+export type UseGetPeopleByIdProps = {
+  id: number;
   options?: TOptions;
 };
 
-export const useGetPeople = ({ options, filters }: UseGetPeopleProps) => {
+export const useGetPeopleById = ({ id, options }: UseGetPeopleByIdProps) => {
   return useQuery<TQueryData, TSwapiError>(
-    ['people', filters],
+    ['people', id],
     () => {
       return swapiInstance.request({
         method: 'get',
-        url: '/people/',
-        params: {
-          ...filters,
-        },
+        url: `/people/${id}`,
       });
     },
     options

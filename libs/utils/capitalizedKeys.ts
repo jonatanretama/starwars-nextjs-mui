@@ -6,7 +6,7 @@ export const capitalizedKeysArr = (arr: any[]) => {
     const capitalizedKey =
       replacedKey.charAt(0).toUpperCase() + replacedKey.slice(1);
     return {
-      key: capitalizedKey,
+      keyName: capitalizedKey,
       value: arr[key as keyof typeof arr],
     };
   });

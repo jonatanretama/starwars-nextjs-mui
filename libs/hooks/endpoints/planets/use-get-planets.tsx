@@ -1,12 +1,12 @@
 import { useQuery, UseQueryOptions } from 'react-query';
-import type { TPeopleData, TSwapiError } from 'libs/models';
+import type { TPlanetsData, TSwapiError } from 'libs/models';
 import type { AxiosResponse } from 'axios';
 import { swapiInstance } from 'libs/api';
 
-type TQueryData = AxiosResponse<TPeopleData>;
+type TQueryData = AxiosResponse<TPlanetsData>;
 type TOptions = UseQueryOptions<TQueryData, TSwapiError>;
 
-export type UseGetPeopleProps = {
+export type UseGetPlanetsProps = {
   filters?: {
     search?: string;
     page?: string;
@@ -14,13 +14,13 @@ export type UseGetPeopleProps = {
   options?: TOptions;
 };
 
-export const useGetPeople = ({ options, filters }: UseGetPeopleProps) => {
+export const useGetPlanets = ({ options, filters }: UseGetPlanetsProps) => {
   return useQuery<TQueryData, TSwapiError>(
-    ['people', filters],
+    ['planets', filters],
     () => {
       return swapiInstance.request({
         method: 'get',
-        url: '/people/',
+        url: '/planets',
         params: {
           ...filters,
         },

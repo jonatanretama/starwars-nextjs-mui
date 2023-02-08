@@ -17,6 +17,6 @@ export type TPlanetsAttrs = {
   url: string;
 };
 
-export type PlanetsData = {
+export type TPlanetsData = {
   results: TPlanetsAttrs[];
 } & TSwapiData;

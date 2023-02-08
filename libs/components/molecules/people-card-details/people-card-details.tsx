@@ -1,63 +1,56 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Box, Typography } from '@mui/material';
 import { FC, useState, useEffect } from 'react';
-import { useGetPeople } from 'libs/hooks';
+import { useGetPlanetsById, useGetPeopleById } from 'libs/hooks';
 import { TPeopleAttrs } from 'libs/models';
 import Image from 'next/image';
+import Link from 'next/link';
+import { PeopleContent } from '@atoms/PeopleContent/people-content';
 
-import { capitalizedKeysArr } from 'libs/utils';
+import { capitalizedKeysArr, getSwapiId } from 'libs/utils';
 
 export type TPeopleCardDetailsProps = {
   details: TPeopleAttrs;
 };
 
 export type TPeopleDetailsArr = {
-  key: string;
+  keyName: string;
   value?: string | string[];
 };
 
 export const PeopleCardDetails: FC = () => {
-  const [detailsArr, setDetailsArr] = useState<TPeopleDetailsArr[]>([]);
-  // const [people, setPeople] = useState<TPeopleAttrs[]>([]);
-  // const { isSuccess } = useGetPeople({
-  //   options: {
-  //     onSuccess: result => {
-  //       setPeople(result.data.results);
-  //     },
-  //   },
-  // });
+  const [planetId, setPlanetId] = useState<string>('');
+  const [planetName, setPlanetName] = useState<string>(null);
 
-  // if (!isSuccess && !people.length) return <Box>nada</Box>;
+  const [peopleDetails, setPeopleDetails] = useState<TPeopleAttrs>();
 
-  const details: TPeopleAttrs = {
-    name: 'Luke Skywalker',
-    height: '172',
-    mass: '77',
-    hair_color: 'blond',
-    skin_color: 'fair',
-    eye_color: 'blue',
-    birth_year: '19BBY',
-    gender: 'male',
-    homeworld: 'https://swapi.dev/api/planets/1/',
-    films: [
-      'https://swapi.dev/api/films/1/',
-      'https://swapi.dev/api/films/2/',
-      'https://swapi.dev/api/films/3/',
-      'https://swapi.dev/api/films/6/',
-    ],
-    species: [],
-    vehicles: [
-      'https://swapi.dev/api/vehicles/14/',
-      'https://swapi.dev/api/vehicles/30/',
-    ],
-    starships: [
-      'https://swapi.dev/api/starships/12/',
-      'https://swapi.dev/api/starships/22/',
-    ],
-    created: '2014-12-09T13:50:51.644000Z',
-    edited: '2014-12-20T21:17:56.891000Z',
-    url: 'https://swapi.dev/api/people/1/',
-  };
+  // Get /people/:id
+  const { isSuccess } = useGetPeopleById({
+    // Static id is just for testing
+    id: 1,
+    options: {
+      onSuccess: result => {
+        setPeopleDetails(result.data);
+      },
+    },
+  });
+
+  // Get /planets/:id
+  useGetPlanetsById({
+    id: planetId,
+    options: {
+      onSuccess: result => {
+        setPlanetName(result.data.name);
+      },
+      enabled: !!planetId,
+    },
+  });
+
+  useEffect(() => {
+    if (!isSuccess) return;
+
+    setPlanetId(getSwapiId(peopleDetails?.homeworld));
+  }, [isSuccess]);
 
   return (
     <Box sx={{ m: 3 }}>
@@ -95,23 +88,23 @@ export const PeopleCardDetails: FC = () => {
           />
         </Box>
         <Box>
-          {capitalizedKeysArr(details as any)?.map(
-            (detail: TPeopleDetailsArr, index: number) => {
-              if (index > 0 && index < 9) {
-                return (
-                  <Typography
-                    component="div"
-                    variant="body1"
-                    key={index}
-                    sx={{ fontWeight: 'bold', display: 'flex', gap: 1 }}>
-                    {detail.key}:
-                    <Typography variant="body1">{detail.value}</Typography>
-                  </Typography>
-                );
+          {isSuccess &&
+            peopleDetails &&
+            capitalizedKeysArr(peopleDetails as any)?.map(
+              (detail: TPeopleDetailsArr, index: number) => {
+                if (index > 0 && index < 9) {
+                  return (
+                    <PeopleContent
+                      {...detail}
+                      key={index}
+                      planetId={planetId}
+                      planetName={planetName}
+                    />
+                  );
+                }
+                return null;
               }
-              return null;
-            }
-          )}
+            )}
         </Box>
       </Box>
       <Box
@@ -123,7 +116,9 @@ export const PeopleCardDetails: FC = () => {
           justifyContent: 'center',
           alignItems: 'center',
         }}>
-        Anakin Skywalker
+        {isSuccess && peopleDetails && (
+          <Typography variant="h6">{peopleDetails.name}</Typography>
+        )}
       </Box>
     </Box>
   );
