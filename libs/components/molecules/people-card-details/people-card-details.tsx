@@ -5,6 +5,7 @@ import { useGetPlanetsById, useGetPeopleById } from '@hooks';
 import { TPeopleAttrs } from '@models';
 import Image from 'next/image';
 import { PeopleContent } from '@atoms/PeopleContent/people-content';
+import { BottomTitleCard } from '@atoms/BottomTitleCard';
 
 import { capitalizedKeysArr, getSwapiId } from '@utils';
 
@@ -56,40 +57,57 @@ export const PeopleCardDetails: FC = () => {
     <Box sx={{ m: 3 }}>
       <Box
         sx={{
+          bgcolor: 'primary.dark',
           display: 'flex',
-          flexDirection: { sx: 'column', md: 'row' },
+          borderRadius: { xs: '20px 20px 0 0', sm: '20px 20px 0 20px' },
+          flexDirection: { xs: 'column', sm: 'row' },
           gap: 2,
-          boxShadow: 3,
         }}>
         <Box
           sx={{
-            width: { xs: '100%', md: 400, xl: 500 },
-            height: { xs: 'auto', md: 300, xl: 400 },
-            clipPath: {
-              xs: 'circle(45% at 50% 50%)',
-              md: 'none',
-            },
+            filter: 'drop-shadow(1px 0px 10px rgba(200, 200, 200, 0.3))',
           }}>
-          {/* TODO: Set dynamic image */}
-          <Image
-            priority
-            src="/images/anakin-sky-walker.webp"
-            alt="Imagen de Anakin Skywalker"
-            width={600}
-            height={600}
-            blurDataURL={'/images/anakin-sky-walker.webp'}
-            sizes="(max-width: 768px) 100vw,
-              (min-width: 1200px) 50vw,
-              33vw"
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-            }}
-          />
+          <Box
+            sx={{
+              width: { xs: '100%', md: 350, xl: 500 },
+              height: { xs: 350, md: 350, xl: 500 },
+              clipPath: {
+                xs: 'polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0)',
+                sm: 'polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%)',
+                xl: 'polygon(100% 70%, 98% 60%, 98% 40%, 100% 30%, 100% 0, 0 0, 0 100%, 100% 100%)',
+              },
+            }}>
+            {/* TODO: Set dynamic image with dynamic alt */}
+            <Image
+              priority
+              src="/images/anakin-sky-walker.webp"
+              alt="Imagen de Anakin Skywalker"
+              quality={50}
+              width={600}
+              height={600}
+              blurDataURL={'/images/anakin-sky-walker.webp'}
+              sizes="(max-width: 768px) 100vw,
+                (min-width: 1200px) 50vw,
+                33vw"
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                borderRadius: '20px 20px 0 20px',
+              }}
+            />
+          </Box>
         </Box>
 
-        <Box>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: { xs: 'center', sm: 'flex-start' },
+            pl: { xs: 0, sm: 2 },
+            py: { xs: 2, sm: 0 },
+          }}>
           {isSuccess &&
             peopleDetails &&
             capitalizedKeysArr(peopleDetails as any)?.map(
@@ -109,20 +127,10 @@ export const PeopleCardDetails: FC = () => {
             )}
         </Box>
       </Box>
-      <Box
-        sx={{
-          bgcolor: 'tomato',
-          height: 40,
-          clipPath: 'polygon(0 0, 100% 0, 97% 100%, 3% 100%)',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}>
-        {/* TODO: Update font styles */}
-        {isSuccess && peopleDetails && (
-          <Typography variant="h6">{peopleDetails.name}</Typography>
-        )}
-      </Box>
+
+      {isSuccess && peopleDetails && (
+        <BottomTitleCard name={peopleDetails?.name} />
+      )}
     </Box>
   );
 };
