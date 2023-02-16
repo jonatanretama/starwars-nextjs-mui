@@ -8,7 +8,6 @@ export type TPeopleContentProps = {
   planetId?: string;
 } & TPeopleDetailsArr;
 
-/* TODO: Update font styles */
 export const PeopleContent: FC<TPeopleContentProps> = ({
   planetName,
   keyName,
