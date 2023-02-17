@@ -20,7 +20,7 @@ export const useGetPeople = ({ options, filters }: UseGetPeopleProps) => {
     () => {
       return swapiInstance.request({
         method: 'get',
-        url: '/people/',
+        url: '/people',
         params: {
           ...filters,
         },

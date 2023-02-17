@@ -49,7 +49,9 @@
       "@models": ["libs/models/index.ts"],
       "@models/*": ["libs/models/*"],
       "@hooks": ["libs/hooks/index.ts"],
-      "@hooks/*": ["libs/hooks/*"]
+      "@hooks/*": ["libs/hooks/*"],
+      "@mocks": ["libs/mocks/index.ts"],
+      "@mocks/*": ["libs/mocks/*"]
     },
     "noEmit": true,
     "incremental": true,
