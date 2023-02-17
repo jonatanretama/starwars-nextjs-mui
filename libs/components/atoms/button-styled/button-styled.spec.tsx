@@ -1,11 +1,11 @@
-import { render, waitFor } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { ButtonStyled } from './button-styled';
 import { MainProvider } from '@provider/main-provider';
 
 describe('ButtonStyled', () => {
-  it('should click on button', async () => {
+  it('should click on button', () => {
     const { getByRole } = render(<ButtonStyled />, { wrapper: MainProvider });
 
-    await waitFor(() => expect(getByRole('button', { name: 'Jonatan' })));
+    expect(getByRole('button', { name: 'Jonatan' })).toBeInTheDocument();
   });
 });
