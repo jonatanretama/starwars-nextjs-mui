@@ -4,8 +4,7 @@ import { FC, useState, useEffect } from 'react';
 import { useGetPlanetsById, useGetPeopleById } from '@hooks';
 import { TPeopleAttrs } from '@models';
 import Image from 'next/image';
-import { PeopleContent } from '@atoms/PeopleContent/people-content';
-import { BottomTitleCard } from '@atoms/BottomTitleCard';
+import { PeopleContent, BottomTitleCard } from '@atoms';
 
 import { capitalizedKeysArr, getSwapiId } from '@utils';
 

@@ -1,15 +1,6 @@
 import { rest } from 'msw';
-
-const prepareUrl = (baseUrl: string, path: string) => {
-  const base = baseUrl || 'https://swapi.dev/api';
-
-  return base + path;
-};
-
-const SWAPI_URL = (path: string) =>
-  prepareUrl(process.env['NEXT_PUBLIC_SWAPI_BASE_URL'], path);
-
-import { PEOPLE_DATA } from '../swapi';
+import { SWAPI_URL } from '@utils/api-url-handler';
+import { PEOPLE_DATA } from '../swapi-data';
 
 export const peopleHandler = rest.get(
   SWAPI_URL('/people'),
@@ -18,4 +9,11 @@ export const peopleHandler = rest.get(
   }
 );
 
-export const swapiHappyHandler = [peopleHandler];
+export const peopleByIdHandler = rest.get(
+  SWAPI_URL('/people/:id'),
+  (_req, res, ctx) => {
+    return res(ctx.status(200), ctx.json(PEOPLE_DATA.results[0]));
+  }
+);
+
+export const swapiHappyHandler = [peopleHandler, peopleByIdHandler];

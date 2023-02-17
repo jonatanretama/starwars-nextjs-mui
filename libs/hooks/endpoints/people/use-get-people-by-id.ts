@@ -7,7 +7,7 @@ type TQueryData = AxiosResponse<TPeopleAttrs>;
 type TOptions = UseQueryOptions<TQueryData, TSwapiError>;
 
 export type UseGetPeopleByIdProps = {
-  id: number;
+  id: string;
   options?: TOptions;
 };
 
