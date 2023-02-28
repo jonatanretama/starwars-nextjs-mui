@@ -62,16 +62,9 @@
     "**/*.jsx",
     "**/*.ts",
     "**/*.tsx",
-    "libs/components/**/*"
+    "libs/components/**/*",
+    "**/*.stories.*",
+    ".storybook/**/*"
   ],
-  "exclude": [
-    ".next",
-    "node_modules",
-    "jest.setup.ts",
-    "jest.preset.ts",
-    "**/*.stories.ts",
-    "**/*.stories.js",
-    "**/*.stories.jsx",
-    "**/*.stories.tsx"
-  ]
+  "exclude": [".next", "node_modules", "jest.setup.ts", "jest.preset.ts"]
 }

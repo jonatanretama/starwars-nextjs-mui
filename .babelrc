@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "runtime": "automatic",
+        "useBuiltIns": "usage",
+        "importSource": "@emotion/react"
+      }
+    ]
+  ],
+  "plugins": [
+    "@emotion/babel-plugin"
+  ]
+}

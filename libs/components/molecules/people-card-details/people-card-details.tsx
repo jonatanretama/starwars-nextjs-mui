@@ -27,7 +27,7 @@ export const PeopleCardDetails: FC = () => {
   const { isSuccess } = useGetPeopleById({
     // Static id is just for testing
     // TODO: Send id as prop
-    id: 1,
+    id: '1',
     options: {
       onSuccess: result => {
         setPeopleDetails(result.data);
