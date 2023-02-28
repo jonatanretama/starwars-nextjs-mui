@@ -4,12 +4,12 @@ import localFont from '@next/font/local';
 const TimeBurner = localFont({
   src: [
     {
-      path: '../../../fonts/timeburner-bold.ttf',
+      path: '../../../public/fonts/timeburner-bold.ttf',
       weight: '700',
       style: 'bold',
     },
     {
-      path: '../../../fonts/timeburner-normal.ttf',
+      path: '../../../public/fonts/timeburner-normal.ttf',
       weight: '400',
       style: 'normal',
     },

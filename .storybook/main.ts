@@ -9,7 +9,6 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-queryparams",
-    '@storybook/addon-toolbars',
   ],
   framework: {
     name: "@storybook/nextjs",
@@ -18,7 +17,6 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag"
   },
-  staticDirs: ['../public']
+  staticDirs: [{ from: '../public', to: '/public' }, { from: '../public/images', to: '/images' }],
 };
-
 export default config;
