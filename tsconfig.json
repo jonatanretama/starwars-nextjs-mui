@@ -27,31 +27,75 @@
     "target": "es6",
     "module": "esnext",
     "allowSyntheticDefaultImports": true,
-    "lib": ["dom.iterable", "dom", "esnext"],
+    "lib": [
+      "dom.iterable",
+      "dom",
+      "esnext"
+    ],
     "outDir": "build",
     "noImplicitAny": true,
     "esModuleInterop": true,
     "paths": {
-      "@api/*": ["libs/api/*"],
-      "@api": ["libs/api/index.ts"],
-      "@atoms/*": ["libs/components/atoms/*"],
-      "@atoms": ["libs/components/atoms/index.ts"],
-      "@molecules/*": ["libs/components/molecules/*"],
-      "@molecules": ["libs/components/molecules/index.ts"],
-      "@organisms/*": ["libs/components/organisms/*"],
-      "@organisms": ["libs/components/organisms/index.ts"],
-      "@ui/*": ["libs/ui/*"],
-      "@ui": ["libs/ui/index.ts"],
-      "@provider/*": ["libs/provider/*"],
-      "@provider": ["libs/provider/index.ts"],
-      "@utils/*": ["libs/utils/*"],
-      "@utils": ["libs/utils/index.ts"],
-      "@models": ["libs/models/index.ts"],
-      "@models/*": ["libs/models/*"],
-      "@hooks": ["libs/hooks/index.ts"],
-      "@hooks/*": ["libs/hooks/*"],
-      "@mocks": ["libs/mocks/index.ts"],
-      "@mocks/*": ["libs/mocks/*"]
+      "@api/*": [
+        "libs/api/*"
+      ],
+      "@api": [
+        "libs/api/index.ts"
+      ],
+      "@atoms/*": [
+        "libs/components/atoms/*"
+      ],
+      "@atoms": [
+        "libs/components/atoms/index.ts"
+      ],
+      "@molecules/*": [
+        "libs/components/molecules/*"
+      ],
+      "@molecules": [
+        "libs/components/molecules/index.ts"
+      ],
+      "@organisms/*": [
+        "libs/components/organisms/*"
+      ],
+      "@organisms": [
+        "libs/components/organisms/index.ts"
+      ],
+      "@ui/*": [
+        "libs/ui/*"
+      ],
+      "@ui": [
+        "libs/ui/index.ts"
+      ],
+      "@provider/*": [
+        "libs/provider/*"
+      ],
+      "@provider": [
+        "libs/provider/index.ts"
+      ],
+      "@utils/*": [
+        "libs/utils/*"
+      ],
+      "@utils": [
+        "libs/utils/index.ts"
+      ],
+      "@models": [
+        "libs/models/index.ts"
+      ],
+      "@models/*": [
+        "libs/models/*"
+      ],
+      "@hooks": [
+        "libs/hooks/index.ts"
+      ],
+      "@hooks/*": [
+        "libs/hooks/*"
+      ],
+      "@mocks": [
+        "libs/mocks/index.ts"
+      ],
+      "@mocks/*": [
+        "libs/mocks/*"
+      ]
     },
     "noEmit": true,
     "incremental": true,
@@ -66,5 +110,10 @@
     "**/*.stories.*",
     ".storybook/**/*"
   ],
-  "exclude": [".next", "node_modules", "jest.setup.ts", "jest.preset.ts"]
+  "exclude": [
+    ".next",
+    "node_modules",
+    "jest.setup.ts",
+    "jest.preset.ts"
+  ]
 }

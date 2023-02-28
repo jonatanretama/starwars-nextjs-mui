@@ -4,6 +4,6 @@ import type { FC } from 'react';
 const obj = {
   data: { name: 'Jonatan' },
 };
-export const ButtonStyled: FC = () => (
+export const ButtonStyledExample: FC = () => (
   <Button variant="outlined">{obj.data.name}</Button>
 );

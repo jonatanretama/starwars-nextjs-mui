@@ -16,4 +16,4 @@ export const peopleByIdHandler = rest.get(
   }
 );
 
-export const swapiHappyHandler = [peopleHandler, peopleByIdHandler];
+export const peopleHappyHandler = [peopleHandler, peopleByIdHandler];
