@@ -9,8 +9,10 @@ describe('PeopleCardDetails', () => {
     });
 
     await waitFor(() => {
-      expect(getByText(/tatooine/i)).toBeInTheDocument();
       expect(getByRole('img', { name: /imagen/i })).toBeInTheDocument();
+      expect(getByText(/height/i)).toBeInTheDocument();
+      expect(getByText(/172/i)).toBeInTheDocument();
+      expect(getByRole('link', { name: /tatooine/i })).toBeInTheDocument();
     });
   });
 });

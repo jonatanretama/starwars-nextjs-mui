@@ -7,8 +7,8 @@ export const SwapiInterceptor = {
   },
   responseError(axiosError: AxiosError<SwapiError>): Promise<AxiosError> {
     const response = axiosError?.response;
-    console.log('Status', response?.status);
-    console.log('Detail', response?.data?.detail);
+    console.error('Status', response?.status);
+    console.error('Detail', response?.data?.detail);
     return Promise.reject(axiosError);
   },
 };

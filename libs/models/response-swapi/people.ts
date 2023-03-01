@@ -1,4 +1,4 @@
-import type { TSwapiData } from '../api';
+import type { TSwapiData } from '../swapi';
 
 export type TPeopleAttrs = {
   name: string;

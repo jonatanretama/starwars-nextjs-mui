@@ -34,7 +34,8 @@ const customJestConfig = {
     '!**/*.d.ts',
     '!**/*.stories.*',
     '!**/index.ts',
-    '!jest.config.ts',
+    '!jest.*.ts',
+    '!.storybook/**/*',
   ],
   moduleNameMapper: {
     '^@components(.*)$': '<rootDir>/libs/components$1',
