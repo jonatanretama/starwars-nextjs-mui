@@ -10,7 +10,7 @@ const MainProvider = lazy(async () => {
   return { default: MainProvider };
 });
 
-type AppProps = AppInitialProps & {
+export type AppExtendedProps = AppInitialProps & {
   emotionCache: EmotionCache;
   Component: NextPage & {
     getLayout?: (page: ReactNode) => ReactNode;
@@ -21,7 +21,7 @@ export default function MyApp({
   Component,
   pageProps,
   emotionCache,
-}: AppProps) {
+}: AppExtendedProps) {
   const getLayout = Component.getLayout || (page => page);
   return (
     <Suspense>

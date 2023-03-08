@@ -36,6 +36,7 @@ const customJestConfig = {
     '!**/index.ts',
     '!jest.*.ts',
     '!.storybook/**/*',
+    '!pages/_document.tsx',
   ],
   moduleNameMapper: {
     '^@components(.*)$': '<rootDir>/libs/components$1',

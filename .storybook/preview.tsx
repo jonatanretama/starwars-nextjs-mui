@@ -1,4 +1,4 @@
-import MainProvider from '../libs/provider/main-provider/main-provider';
+import { MainProvider } from '@provider/main-provider';
 import { withQuery } from '@storybook/addon-queryparams';
 import { MemoryRouterProvider } from 'next-router-mock/MemoryRouterProvider/next-13'
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';

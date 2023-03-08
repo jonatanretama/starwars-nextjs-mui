@@ -2,7 +2,7 @@ import { setupServer } from 'msw/node';
 import type { SetupServerApi } from 'msw/node';
 import { swappiHappyHandler } from './libs/mocks/handlers';
 
-import '@testing-library/jest-dom';
+import '@testing-library/jest-dom/extend-expect';
 import { setLogger } from 'react-query';
 import axios from 'axios';
 
