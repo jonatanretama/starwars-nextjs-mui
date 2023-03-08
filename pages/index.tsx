@@ -1,6 +1,5 @@
 import Head from 'next/head';
-import { ButtonStyled } from '@atoms/ButtonStyled';
-import { PeopleCard } from '@molecules/people-card';
+import { PeopleCardDetails } from '@molecules/people-card-details';
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        text <PeopleCard />
+        <PeopleCardDetails />
       </main>
     </>
   );

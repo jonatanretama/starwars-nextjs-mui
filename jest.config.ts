@@ -32,10 +32,26 @@ const customJestConfig = {
     'libs/components/**/*.{ts,tsx}',
     '**/*.{ts,tsx}',
     '!**/*.d.ts',
-    '!**/*.stories.tsx',
+    '!**/*.stories.*',
     '!**/index.ts',
-    '!jest.config.ts',
+    '!jest.*.ts',
+    '!.storybook/**/*',
+    '!pages/_document.tsx',
   ],
+  moduleNameMapper: {
+    '^@components(.*)$': '<rootDir>/libs/components$1',
+    '^@atoms(.*)$': '<rootDir>/libs/components/atoms$1',
+    '^@molecules(.*)$': '<rootDir>/libs/components/molecules$1',
+    '^@organisms(.*)$': '<rootDir>/libs/components/organisms$1',
+    '^@hooks(.*)$': '<rootDir>/libs/hooks$1',
+    '^@models(.*)$': '<rootDir>/libs/models$1',
+    '^@provider(.*)$': '<rootDir>/libs/provider$1',
+    '^@mocks(.*)$': '<rootDir>/libs/mocks$1',
+    '^@utils(.*)$': '<rootDir>/libs/utils$1',
+    '^@pages(.*)$': '<rootDir>/pages$1',
+    '^@ui(.*)$': '<rootDir>/libs/ui$1',
+    '^@api(.*)$': '<rootDir>/libs/api$1',
+  },
 };
 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async

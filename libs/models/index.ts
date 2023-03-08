@@ -1,2 +1,2 @@
-export * from './response';
-export * from './api';
+export * from './response-swapi';
+export * from './swapi';

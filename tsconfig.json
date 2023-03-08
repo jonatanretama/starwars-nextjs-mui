@@ -32,12 +32,26 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "paths": {
+      "@api/*": ["libs/api/*"],
+      "@api": ["libs/api/index.ts"],
       "@atoms/*": ["libs/components/atoms/*"],
+      "@atoms": ["libs/components/atoms/index.ts"],
       "@molecules/*": ["libs/components/molecules/*"],
+      "@molecules": ["libs/components/molecules/index.ts"],
       "@organisms/*": ["libs/components/organisms/*"],
-      "@ui/*": ["libs/ui/src/*"],
-      "@ui": ["libs/ui/src/index.ts"],
-      "@provider/*": ["libs/provider/src/*"]
+      "@organisms": ["libs/components/organisms/index.ts"],
+      "@ui/*": ["libs/ui/*"],
+      "@ui": ["libs/ui/index.ts"],
+      "@provider/*": ["libs/provider/*"],
+      "@provider": ["libs/provider/index.ts"],
+      "@utils/*": ["libs/utils/*"],
+      "@utils": ["libs/utils/index.ts"],
+      "@models": ["libs/models/index.ts"],
+      "@models/*": ["libs/models/*"],
+      "@hooks": ["libs/hooks/index.ts"],
+      "@hooks/*": ["libs/hooks/*"],
+      "@mocks": ["libs/mocks/index.ts"],
+      "@mocks/*": ["libs/mocks/*"]
     },
     "noEmit": true,
     "incremental": true,
@@ -48,16 +62,10 @@
     "**/*.jsx",
     "**/*.ts",
     "**/*.tsx",
-    "libs/components/**/*"
+    "libs/components/**/*",
+    "**/*.stories.*",
+    ".storybook/**/*",
+    "__tests__/**/*"
   ],
-  "exclude": [
-    ".next",
-    "node_modules",
-    "jest.setup.ts",
-    "jest.preset.ts",
-    "**/*.stories.ts",
-    "**/*.stories.js",
-    "**/*.stories.jsx",
-    "**/*.stories.tsx"
-  ]
+  "exclude": [".next", "node_modules", "jest.setup.ts", "jest.preset.ts"]
 }
