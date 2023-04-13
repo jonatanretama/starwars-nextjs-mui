@@ -20,11 +20,7 @@ export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
         borderRadius: { xs: '20px 20px 0 0', sm: '20px 20px 0 20px' },
         filter: 'drop-shadow(1px 0px 10px rgba(200, 200, 200, 0.3))',
       }}>
-      <Box
-        sx={{
-          width: '100%',
-          height: '100%',
-        }}>
+      <Box sx={{ width: '100%', height: '100%' }}>
         {/* TODO: Set dynamic image with dynamic alt */}
         <Image
           priority
@@ -44,6 +40,7 @@ export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
             borderRadius: '20px 20px 0 20px',
           }}
         />
+        {`${name} - ${id}`}
       </Box>
     </Box>
   );
