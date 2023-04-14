@@ -1,6 +1,6 @@
 import { StoryObj, Meta } from '@storybook/react';
 import { ListCards } from './list-cards';
-import { peopleHandler } from '@mocks';
+import { PEOPLE_DATA } from '@mocks';
 
 export default {
   title: 'Molecules/ListCards',
@@ -14,11 +14,7 @@ export default {
 type Template = StoryObj<typeof ListCards>;
 
 export const Default: Template = {
-  args: {},
-};
-
-Default.parameters = {
-  msw: {
-    handlers: [peopleHandler],
+  args: {
+    results: PEOPLE_DATA.results,
   },
 };

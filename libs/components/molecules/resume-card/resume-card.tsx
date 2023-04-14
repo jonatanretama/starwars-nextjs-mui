@@ -8,8 +8,9 @@ export type TResumeCardProps = {
 };
 
 export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
-  // TODO: Get name and id as props, then display the name under the image
+  // TODO: Add syles and responsive
   // TODO: Set dynamic image
+
   return (
     <Box
       sx={{
