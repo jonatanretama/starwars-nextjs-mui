@@ -3,7 +3,7 @@ import { CardsOrquestator } from '@organisms/cards-orquestator';
 import { useState } from 'react';
 import { useGetPeople } from '@hooks';
 
-export default function Home() {
+export default function People() {
   const [page, setPage] = useState(1);
   const [countTotalItems, setCountTotalItems] = useState<number>();
 

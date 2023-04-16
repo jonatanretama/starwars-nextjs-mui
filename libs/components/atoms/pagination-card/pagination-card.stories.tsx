@@ -15,6 +15,6 @@ type Template = StoryObj<typeof PaginationCard>;
 export const Default: Template = {
   args: {
     page: 1,
-    getLengthForPagination: () => 10,
+    getLengthForPagination: () => 0,
   },
 };

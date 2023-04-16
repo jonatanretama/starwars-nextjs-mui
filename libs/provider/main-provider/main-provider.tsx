@@ -42,5 +42,3 @@ export const MainProvider: FC<MainProviderProps> = ({
     </CacheProvider>
   );
 };
-
-export default MainProvider;
