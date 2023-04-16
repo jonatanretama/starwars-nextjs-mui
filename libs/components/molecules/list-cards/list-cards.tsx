@@ -3,13 +3,9 @@ import { ResumeCard } from '@molecules';
 import { getSwapiId } from '@utils/get-swapi-url-data';
 import type { FC } from 'react';
 
-import type { TPeopleAttrs } from '@models';
+import type { TResultsData } from '@models';
 
-export type TListCardsProps = {
-  results: TPeopleAttrs[];
-};
-
-export const ListCards: FC<TListCardsProps> = ({ results }) => {
+export const ListCards: FC<TResultsData> = ({ results }) => {
   return (
     <Box
       sx={{
@@ -21,8 +17,8 @@ export const ListCards: FC<TListCardsProps> = ({ results }) => {
       }}>
       {results.map(item => (
         <ResumeCard
-          key={`${item.name}-${item.height}`}
-          name={item.name}
+          key={item.url}
+          name={'name' in item ? item.name : item.title}
           id={getSwapiId(item.url)}
         />
       ))}

@@ -1,28 +1,24 @@
 import { Box } from '@mui/material';
-import { useState, FC } from 'react';
-import { useGetPeople } from '@hooks';
+import type { FC } from 'react';
 import { PaginationCard } from '@atoms/pagination-card';
 import { ListCards } from '@molecules/list-cards';
 import { getLengthForPagination } from '@utils/get-swapi-url-data';
+import type { TResultsData } from '@models';
 // import { useRouter } from 'next/router';
 
-export const PeopleOrquestator: FC = () => {
-  // const router = useRouter();
-  const [page, setPage] = useState(1);
-  const [countTotalItems, setCountTotalItems] = useState<number>();
+export type TCardOrquestatorProps = {
+  setPage: (page: number) => void;
+  countTotalItems: number;
+  page: number;
+} & TResultsData;
 
-  const { data, isSuccess } = useGetPeople({
-    filters: {
-      page: page,
-    },
-    options: {
-      onSuccess: res => {
-        if (!countTotalItems) {
-          setCountTotalItems(res.data.count);
-        }
-      },
-    },
-  });
+export const CardsOrquestator: FC<TCardOrquestatorProps> = ({
+  setPage,
+  countTotalItems,
+  results,
+  page,
+}) => {
+  // const router = useRouter();
 
   // TODO: Implement router logic to set the page number in the url and also get the page number from the url
   const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
@@ -32,7 +28,7 @@ export const PeopleOrquestator: FC = () => {
 
   return (
     <Box>
-      {isSuccess && <ListCards results={data.data.results} />}
+      {results && <ListCards results={results} />}
       {countTotalItems > 0 && (
         <Box sx={{ mt: 4 }}>
           <PaginationCard
