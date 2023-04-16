@@ -9,7 +9,7 @@ type TOptions = UseQueryOptions<TQueryData, TSwapiError>;
 export type UseGetPlanetsProps = {
   filters?: {
     search?: string;
-    page?: string;
+    page?: number;
   };
   options?: TOptions;
 };

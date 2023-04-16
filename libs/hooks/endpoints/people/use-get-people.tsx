@@ -9,7 +9,7 @@ type TOptions = UseQueryOptions<TQueryData, TSwapiError>;
 export type UseGetPeopleProps = {
   filters?: {
     search?: string;
-    page?: string;
+    page?: number;
   };
   options?: TOptions;
 };
