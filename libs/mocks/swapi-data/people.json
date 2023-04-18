@@ -1,0 +1,658 @@
+[
+  {
+    "nameToSearch": "Beru Whitesun lars",
+    "title": "Beru Whitesun Lars | Star Wars Wiki ...",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Beru_Whitesun_Lars",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/c/cc/BeruCardTrader.png/revision/latest?cb=20171231024525",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvYSq_Js2o8SlRPD62Pko6A4hCRLCUfoEa8vZYfsqSYB03672U&s"
+  },
+  {
+    "nameToSearch": "Owen Lars",
+    "title": "Owen Lars | StarWars.com",
+    "source": "www.starwars.com",
+    "link": "https://www.starwars.com/databank/owen-lars",
+    "original": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg?region=8%2C0%2C774%2C774",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMNd44ZBu-08tQq9S8G84-Ld40ftLWceUVXzfBc_-1Tq8TtiE&s"
+  },
+  {
+    "nameToSearch": "Darth Vader",
+    "title": "Darth Vader | StarWars.com",
+    "source": "www.starwars.com",
+    "link": "https://www.starwars.com/databank/darth-vader",
+    "original": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVRUdpAgyo4fdSUfc6H5IrOf8VsN08jfW1eJj2a3GxT6rKo54&s"
+  },
+  {
+    "nameToSearch": "C-3PO",
+    "title": "C-3PO - Wikipedia",
+    "source": "en.wikipedia.org",
+    "link": "https://en.wikipedia.org/wiki/C-3PO",
+    "original": "https://upload.wikimedia.org/wikipedia/en/5/5c/C-3PO_droid.png",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeUpIq-wRuQ7qMjbPNNb8PvoLr_b5fkfM-NMo9kaTAJF_iEAF4&s"
+  },
+  {
+    "nameToSearch": "Luke Skywalker",
+    "title": "Luke Skywalker | StarWars.com",
+    "source": "www.starwars.com",
+    "link": "https://www.starwars.com/databank/luke-skywalker",
+    "original": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_fb34a1ff.jpeg?region=131%2C0%2C951%2C536",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI9nNQ98UJ_FB1XsmGm8TaYfs2Bg0zdXdUBfkP5oZsETF2jUdX&s"
+  },
+  {
+    "nameToSearch": "Obi-Wan Kenobi",
+    "title": "Obi-Wan Kenobi - Wikipedia",
+    "source": "en.wikipedia.org",
+    "link": "https://en.wikipedia.org/wiki/Obi-Wan_Kenobi",
+    "original": "https://upload.wikimedia.org/wikipedia/en/c/c5/Obiwan1.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzMnrffG8Q-Ha-qsFl4BE1rUEW2-cXpe2Jy6sZ2cstWS1QV6nBGptYSg&s"
+  },
+  {
+    "nameToSearch": "Biggs Darklighter",
+    "title": "Biggs Darklighter | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Biggs_Darklighter",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/0/00/BiggsHS-ANH.png/revision/latest?cb=20190110214931",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmGwwY4SUQfwKYrteqsXhhwRo2pvVJw7wbkmULcvKQHLmP-F0&s"
+  },
+  {
+    "nameToSearch": "R2-D2",
+    "title": "R2-D2 | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/R2-D2",
+    "original": "https://static.wikia.nocookie.net/starwars/images/e/eb/ArtooTFA2-Fathead.png/revision/latest?cb=20161108040914",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnLwGwyMXB8AEhJcV1LIjU2iIhXPJIE4Zd4JR5rUUaHBbIlNs&s"
+  },
+  {
+    "nameToSearch": "Leia Organa",
+    "title": "Leia Organa | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Leia_Organa",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/9/9b/Princessleiaheadwithgun.jpg/revision/latest?cb=20150117214124",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGRWsivEHYQUwUrciEpD2YD0xv_CduQgYZEm2w0NIiviuRT40&s"
+  },
+  {
+    "nameToSearch": "R5-D4",
+    "title": "R5-D4 | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/R5-D4",
+    "original": "https://static.wikia.nocookie.net/starwars/images/3/3f/R5D4-AG.png/revision/latest?cb=20230317020800",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhSRuTW39c5KTUQTLp9TiW_LU4q75SWBgrPB-lh_sSnRMTimY&s"
+  },
+  {
+    "nameToSearch": "Jabba Desilijic Tiure",
+    "title": "Jabba Desilijic Tiure | Wookieepedia ...",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Jabba_Desilijic_Tiure",
+    "original": "https://static.wikia.nocookie.net/starwars/images/1/1f/JabbatheHutt-ToppsFinest2019.png/revision/latest?cb=20221001194607",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBKNQ5G9zE0FShJnsEViJxfU50mQ_Tg7LP4AdkJ_qHeBaR4OCe&s"
+  },
+  {
+    "nameToSearch": "Wilhuff Tarkin",
+    "title": "Wilhuff Tarkin | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Wilhuff_Tarkin",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/c/c1/Tarkininfobox.jpg/revision/latest?cb=20160918123818",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4O83n8_3KnMvQkzpQM6t19aw62kb6TCgfKLOZ2_5Svm2pVBY&s"
+  },
+  {
+    "nameToSearch": "Greedo",
+    "title": "Greedo | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Greedo",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/c/c6/Greedo.jpg/revision/latest?cb=20190807064733",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNpysJzuXkQLlk_TeEAOxhy4I_hJxuLxj5b3w7Wr1OsGMiCuAl&s"
+  },
+  {
+    "nameToSearch": "Jek Tono Porkins",
+    "title": "Jek Tono Porkins | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Jek_Tono_Porkins",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/e/eb/JekPorkins-DB.png/revision/latest?cb=20180704201404",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu6WcOU5JU9KLOHvKACaMq1xUFvLl9SDAva1uKUyp3gNOAhI9s&s"
+  },
+  {
+    "nameToSearch": "Wedge Antilles",
+    "title": "Wedge Antilles | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Wedge_Antilles",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/b/b2/WedgeAntilles-Masterwork2020.png/revision/latest?cb=20210730182110",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1SEX57yEeF1nl0NlufqLJ6n3pzhJye-SiKOgfAEerZD32YQ&s"
+  },
+  {
+    "nameToSearch": "Han Solo",
+    "title": "Han Solo - Wikipedia",
+    "source": "en.wikipedia.org",
+    "link": "https://en.wikipedia.org/wiki/Han_Solo",
+    "original": "https://upload.wikimedia.org/wikipedia/en/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOtfq8ofqCpphAeM3qWeziCsCm1cymzXlh2nH3Y2TQ0aEQVBM&s"
+  },
+  {
+    "nameToSearch": "Palpatine",
+    "title": "Palpatine | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Palpatine/Leyendas",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/d/d8/Emperor_Sidious.png/revision/latest?cb=20160707034301",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjvg6AQNJWlA17ZOUvs0H_KM6SKjuQK7W2sj6uCFt_QGFLX5o&s"
+  },
+  {
+    "nameToSearch": "Yoda",
+    "title": "Yoda | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Yoda",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/d/d6/Yoda_SWSB.png/revision/latest?cb=20180105191224",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRJEpe8iHJpRbVprMeOtXLpUPMvM7w6DfAUAD_j-zrPFKMiv2R&s"
+  },
+  {
+    "nameToSearch": "Chewbacca",
+    "title": "Chewbacca - Wikipedia, la enciclopedia ...",
+    "source": "es.wikipedia.org",
+    "link": "https://es.wikipedia.org/wiki/Chewbacca",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Solo-_A_Star_Wars_Story_Japan_Premiere_Red_Carpet-_Chewbacca.jpg/320px-Solo-_A_Star_Wars_Story_Japan_Premiere_Red_Carpet-_Chewbacca.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4n8r_EFXg23-NEFe2U-O0_B0Oq2wlA9lczMHrEElsoWQftUQ&s"
+  },
+  {
+    "nameToSearch": "Anakin Skywalker",
+    "title": "Anakin Skywalker | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Anakin_Skywalker",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/6/6f/Anakin_Skywalker_RotS.png/revision/latest?cb=20160226204939",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAFuK4IpTFJU-BAttxO5hDhmKANy00IwQJvH737WXDXbiainxj&s"
+  },
+  {
+    "nameToSearch": "Arvel Crynyd",
+    "title": "Arvel Crynyd | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Arvel_Crynyd",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/d/de/Arvel-crynyd.jpg/revision/latest?cb=20180818202306",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmX-qgBxoMdoSXyOyI8V0udFvQRtGN-2ieIA9uxFrJqt27Pt0&s"
+  },
+  {
+    "nameToSearch": "Nien Nunb",
+    "title": "Nien Nunb | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Nien_Nunb",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/1/14/Old_nien_nunb_-_profile.png/revision/latest?cb=20180105223031",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmfQfzXLPeIPXxI7Ej0aNLLbL_8A-N5zjVFryDU_M6Nl06U4&s"
+  },
+  {
+    "nameToSearch": "Lando Calrissian",
+    "title": "Lando Calrissian - Wikipedia",
+    "source": "en.wikipedia.org",
+    "link": "https://en.wikipedia.org/wiki/Lando_Calrissian",
+    "original": "https://upload.wikimedia.org/wikipedia/en/c/cb/Lando6-2.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR9CcggcBFfzZS3ylQhyVLm106w9laOGKEMl05fE9trs4UR8rB&s"
+  },
+  {
+    "nameToSearch": "Wicket Systri Warrick",
+    "title": "Wicket Wystri Warrick | Star Wars Wiki ...",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Wicket_Wystri_Warrick",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/4/4f/Wicket_RotJ.png/revision/latest?cb=20180723005444",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_8Dj7K3NYK46EVe96JghR8hffKs-6hbkt1Coj8WLUjuyIOiZ&s"
+  },
+  {
+    "nameToSearch": "Mon Mothma",
+    "title": "Mon Mothma | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Mon_Mothma",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/4/46/Monmothma.jpg/revision/latest?cb=20160722025943",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQesGZZkctdtaJQj2sj5f2zDqhNm6bC6tXjmriwer0wqUTMK3OW&s"
+  },
+  {
+    "nameToSearch": "Lobot",
+    "title": "Lobot | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Lobot",
+    "original": "https://static.wikia.nocookie.net/starwars/images/7/72/Lobot-SWE.png/revision/latest?cb=20211214014446",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpRAPZl48dTGZ-Irt3L71T2CDQqa3r_1MU49p4feGy5UHO6Do&s"
+  },
+  {
+    "nameToSearch": "Boba Fett",
+    "title": "STAR WARS The Black Series - Figura ...",
+    "source": "www.amazon.com.mx · In stock",
+    "link": "https://www.amazon.com.mx/STAR-WARS-Black-Coleccionable-Regreso/dp/B08F2QF4MR",
+    "original": "https://m.media-amazon.com/images/I/71ccLo493ML._AC_SX425_.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxPvt81O2NgBZO_MyMA7-6vCL7ugZmSA0bYt6Jl3IOb2Fc7S3PZ_mtbgg&s"
+  },
+  {
+    "nameToSearch": "Bossk",
+    "title": "Bossk'wassak'Cradossk | Star Wars Wiki ...",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Bossk%27wassak%27Cradossk",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/1/1d/Bossk.png/revision/latest?cb=20160801155607",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfOwiCoJFPcp70dzOq3PS8Cb_ELuZVR5GmWwgEh-PPvinPEKE&s"
+  },
+  {
+    "nameToSearch": "IG-88",
+    "title": "IG-88B | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/IG-88B",
+    "original": "https://static.wikia.nocookie.net/starwars/images/f/fe/IG-88B-TESB40.png/revision/latest?cb=20211224193425",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxP0OPCyDXriBDunAUVgodkKEfMLGkqLpsrIfth8OAW6HHtnAv&s"
+  },
+  {
+    "nameToSearch": "Ackbar",
+    "title": "Gial Ackbar | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Gial_Ackbar",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/2/29/Admiral_Ackbar_RH.png/revision/latest?cb=20191025144226",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThnLlIOD_ZqfqFHPBsuRpdiG1JII43Gc4HrPWLQnT2EmqjOEZ8&s"
+  },
+  {
+    "nameToSearch": "Finis Valorum",
+    "title": "Finis Valorum | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Finis_Valorum",
+    "original": "https://static.wikia.nocookie.net/starwars/images/5/51/ValorumPortrait-SWE.png/revision/latest?cb=20220910225030",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGmSmSyL1C3qQvcBnlO8K86vG4BJDA9mepkntUp8fXfXHgJkHK&s"
+  },
+  {
+    "nameToSearch": "Roos Tarpals",
+    "title": "Roos Tarpals | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Roos_Tarpals",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/c/ca/TarpalsHS.jpg/revision/latest?cb=20150831140325",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBYSVeubNN68_kA2rhp3i7nmNf2v7ThiWzd_qwamEZx0eRXdk&s"
+  },
+  {
+    "nameToSearch": "Nute Gunray",
+    "title": "Nute Gunray | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Nute_Gunray",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/f/fd/Nute_Gunray_SWE.png/revision/latest?cb=20171226222706",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo6sJUy2qiUkYHetLb6dkIE2DhJsbVDXPNjz0Spf7YkPIAMskV&s"
+  },
+  {
+    "nameToSearch": "Rugor Nass",
+    "title": "Rugor Nass | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Rugor_Nass",
+    "original": "https://static.wikia.nocookie.net/starwars/images/6/63/BossNass-SWCT.png/revision/latest?cb=20200807030216",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWGyixvg3jNwvDqBk6WnHOF4eH20VLbgQxi96DVSIR-BJdR5Fz&s"
+  },
+  {
+    "nameToSearch": "Qui-Gon Jinn",
+    "title": "Qui-Gon Jinn | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Qui-Gon_Jinn",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/f/f6/Qui-Gon_Jinn_Headshot_TPM.jpg/revision/latest?cb=20190421020731",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNsMczuFkFM3lILACGIg7f3A_SWIpDkk0-ZC0QS5NE7y2ac2y9&s"
+  },
+  {
+    "nameToSearch": "Padmé Amidala",
+    "title": "Padmé Amidala | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Padm%C3%A9_Amidala",
+    "original": "https://static.wikia.nocookie.net/starwars/images/b/b2/Padmegreenscrshot.jpg/revision/latest?cb=20100423143631",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZxFZ7SmJOqGEU9oT1q56CIFVrnrtNjx11R7lTCiISCncO-0Q&s"
+  },
+  {
+    "nameToSearch": "Ric Olié",
+    "title": "Ric Olié | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Ric_Oli%C3%A9",
+    "original": "https://static.wikia.nocookie.net/starwars/images/4/4c/RicOlieHS-SWE.png/revision/latest?cb=20120226230538",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGdmyOeh6EDPE1oz_f2UDg8TT1jP2_8DDSsSg91v9-eHdVS_Q&s"
+  },
+  {
+    "nameToSearch": "Watto",
+    "title": "Watto | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Watto",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/e/eb/WattoHS.jpg/revision/latest?cb=20171230212639",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMOvmdYNKAXRRnf7vBjeUZOIbjdJRaQuyCqcAzr5eH3V3Qrg&s"
+  },
+  {
+    "nameToSearch": "Jar Jar Binks",
+    "title": "Jar Jar Binks - Wikipedia",
+    "source": "en.wikipedia.org",
+    "link": "https://en.wikipedia.org/wiki/Jar_Jar_Binks",
+    "original": "https://upload.wikimedia.org/wikipedia/en/4/4b/Jjportrait.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEJRhLmj6W6N3ZZvIeru2GnrwAD_DxbIds1F5vHiySBqDVIfl4&s"
+  },
+  {
+    "nameToSearch": "Sebulba",
+    "title": "Sebulba | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Sebulba",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/1/14/Sebulba_Headshot_Closeup.png/revision/latest?cb=20180411001145",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNSNw80r6zSRhzNVZpqqpH00hS5655_9BAMkdQMMPaKBkM-6Sk&s"
+  },
+  {
+    "nameToSearch": "Quarsh Panaka",
+    "title": "Quarsh Panaka | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Quarsh_Panaka",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/7/72/PanakaHS-TPM.png/revision/latest?cb=20170912151401",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYw0amYvSccw0M0wEg7-EKjEHqJypLlPPRwlQxopA46i8-p64&s"
+  },
+  {
+    "nameToSearch": "Gasgano",
+    "title": "Gasgano | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Gasgano/Leyendas",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/3/30/Gasgano.jpg/revision/latest?cb=20200810173648",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0V0wZXX9pw5m1A4phykgio43NT14bZuB8uFraokBG96T2r7BbDCy9g&s"
+  },
+  {
+    "nameToSearch": "Shmi Skywalker",
+    "title": "Shmi Skywalker Lars | Star Wars Wiki ...",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Shmi_Skywalker_Lars",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/9/98/ShmiSkywalkerDatabank_%28Repurposed%29.jpg/revision/latest?cb=20171230201949",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0E8_hlEULaZoQB7j_-hVOj4GVoMnG7j-Vint2uw3Z1xVt4Vcu&s"
+  },
+  {
+    "nameToSearch": "Dud Bolt",
+    "title": "Dud Bolt | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Dud_Bolt/Legends",
+    "original": "https://static.wikia.nocookie.net/starwars/images/b/b0/Dud_Bolt.jpg/revision/latest?cb=20061130092516",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJbjfnk2k6Dz6CMBXJxXX1NjqeHvVko5pxEp1uiie1UYFeKC0&s"
+  },
+  {
+    "nameToSearch": "Ayla Secura",
+    "title": "Aayla Secura | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Aayla_Secura",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/4/4d/Aayla_Secura_SWE.png/revision/latest?cb=20160712185126",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcNcLM4BzXP4wKRS9d1fDerrzMdKgnpbsz1cOCe6j9d1yK_X3b&s"
+  },
+  {
+    "nameToSearch": "Darth Maul",
+    "title": "Darth Maul | StarWars.com",
+    "source": "www.starwars.com",
+    "link": "https://www.starwars.com/databank/darth-maul",
+    "original": "https://lumiere-a.akamaihd.net/v1/images/Darth-Maul_632eb5af.jpeg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBJpUZ5SEJekFQqhg9pgqVhKImMhNgyp0WD8w-JtTRz5DoVwM&s"
+  },
+  {
+    "nameToSearch": "Mace Windu",
+    "title": "Mace Windu - Wikipedia",
+    "source": "en.wikipedia.org",
+    "link": "https://en.wikipedia.org/wiki/Mace_Windu",
+    "original": "https://upload.wikimedia.org/wikipedia/en/b/bf/Mace_Windu.png",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5IOENndyZQo04YEsL30J-oe9es7IUAqlSIzhpiKl4yrBoC4M&s"
+  },
+  {
+    "nameToSearch": "Ratts Tyerel",
+    "title": "Ratts Tyerell | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Ratts_Tyerell",
+    "original": "https://static.wikia.nocookie.net/starwars/images/a/a5/RattsHS-SWE.png/revision/latest?cb=20220910224708",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVJKaAzLKkaEI5sTrebB_fY_Aqe6mZrSBZNbWBvIYIKWAP6o&s"
+  },
+  {
+    "nameToSearch": "Ben Quadinaros",
+    "title": "Ben Quadinaros | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Ben_Quadinaros",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/7/7f/Cropped_Quadinaros.png/revision/latest?cb=20180201193659",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw5qlEegMyfRD5XE5r0W3DwzH-fDeFaIfw4AFdgX9ila17mOA&s"
+  },
+  {
+    "nameToSearch": "Bib Fortuna",
+    "title": "Bib Fortuna | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Bib_Fortuna",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/c/cc/Bib_Fortuna_MS2-EP8.png/revision/latest?cb=20201219201117",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDlQvZAeFzSSG0Gw_AuNoq4C1N-qzc_zcgI1qvWT2Z-re2xP1&s"
+  },
+  {
+    "nameToSearch": "Yarael Poof",
+    "title": "Yarael Poof | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Yarael_Poof",
+    "original": "https://static.wikia.nocookie.net/starwars/images/b/b2/YaraelPoof-SWCT.png/revision/latest?cb=20211219001726",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGw8OvK6QEuzAn6BOUqAA4q8SkDhsguFHzfuM4aD5Ba5r4Wwk&s"
+  },
+  {
+    "nameToSearch": "Gregar Typho",
+    "title": "Gregar Typho | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Gregar_Typho",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/5/52/Gregar_Typho.jpg/revision/latest?cb=20160209173952",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR00sMyQM-d8YOLX-xL8saU7usRwfwR9fFAcX8p2j-V9RCeF3N8&s"
+  },
+  {
+    "nameToSearch": "Plo Koon",
+    "title": "Plo Koon | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Plo_Koon",
+    "original": "https://static.wikia.nocookie.net/starwars/images/b/bf/PloKoonCardTrader.png/revision/latest?cb=20211219002811",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ9hqUnzRomJsgcM1Q_-AjSj7W3NmFPQ-jCiFoi8G83Muz3wW6&s"
+  },
+  {
+    "nameToSearch": "Kit Fisto",
+    "title": "Kit Fisto | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Kit_Fisto",
+    "original": "https://static.wikia.nocookie.net/starwars/images/2/25/KitFisto-USWNE.png/revision/latest?cb=20221202063304",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCNnlxMtx5UKEDqaB29Jtuyic1MgEjvswJt4XB5HuGk6w49W-1&s"
+  },
+  {
+    "nameToSearch": "Saesee Tiin",
+    "title": "Saesee Tiin | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Saesee_Tiin",
+    "original": "https://static.wikia.nocookie.net/starwars/images/a/a3/SaeseeTiin-SWCT.png/revision/latest?cb=20200807024726",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1kD4yMhaWlZeUrTWzgtPrrxIx3yiEvmrH_o84KxZeWMPhPt4&s"
+  },
+  {
+    "nameToSearch": "Cordé",
+    "title": "Cordé | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Cord%C3%A9",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/b/b6/Cord%C3%A9_-_SW_Card_Trader.png/revision/latest?cb=20190310031832",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScNCNU5LIwGQzIZ7GzFbD99T1VDGfyXEfnRZhVDaPjjIxJmEVK&s"
+  },
+  {
+    "nameToSearch": "Adi Gallia",
+    "title": "Adi Gallia | StarWars.com",
+    "source": "www.starwars.com",
+    "link": "https://www.starwars.com/databank/adi-gallia",
+    "original": "https://lumiere-a.akamaihd.net/v1/images/databank_adigallia_169_8b798f27.jpeg?region=0%2C0%2C1560%2C780",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhV9xo-eEbltLkdkO5YilV1oz_Ig-hsmTeLiXnghIbowtRbE&s"
+  },
+  {
+    "nameToSearch": "Eeth Koth",
+    "title": "Eeth Koth | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Eeth_Koth",
+    "original": "https://static.wikia.nocookie.net/starwars/images/4/4e/EethKothCardTrader.png/revision/latest?cb=20200807032900",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLmXbvvmKR54qHhNQnWuNIwLid7vM6uSXFvfwastOuVjfrtPal&s"
+  },
+  {
+    "nameToSearch": "Mas Amedda",
+    "title": "Mas Amedda | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Mas_Amedda",
+    "original": "https://static.wikia.nocookie.net/starwars/images/3/37/Mas_Amedda_SWCT.png/revision/latest?cb=20221203003736",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJKMO2mo43INniXFYGK0cFLX0YGvlfk8DltX73u2H0-UrnQqg&s"
+  },
+  {
+    "nameToSearch": "Ki-Adi-Mundi",
+    "title": "Ki-Adi-Mundi | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Ki-Adi-Mundi",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/9/9e/KiAdiMundi.jpg/revision/latest?cb=20091223112454",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR54h1jprCXY4abQvrOM8tQsrf5UBuSzWBJpzdIxIp_qtloJfE&s"
+  },
+  {
+    "nameToSearch": "Cliegg Lars",
+    "title": "Cliegg Lars | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Cliegg_Lars",
+    "original": "https://static.wikia.nocookie.net/starwars/images/3/36/ClieggLarsHS-SWE.jpg/revision/latest?cb=20180513065414",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKJHkvUmNFoyuuedGs7XR97yeiMd2xq2UqAeexzhs1fC5-YM4&s"
+  },
+  {
+    "nameToSearch": "Poggle the Lesser",
+    "title": "Poggle el Menor | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Poggle_el_Menor",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/9/93/Poggle_the_lesser_-_sw_card_trader.png/revision/latest?cb=20190105172929",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ49uaYMCOV7bpBU8iKBhxDRJ2GeID-LpoP8m2XVXYb8-yK8pw&s"
+  },
+  {
+    "nameToSearch": "Dormé",
+    "title": "Dormé | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Dorm%C3%A9/Leyendas",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/8/8b/Dorme.jpg/revision/latest?cb=20080807232715",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2YlfebCe8Fd_LY33SANQZX4UrLLQvBHmlOBuPYZQww2ZW12zM&s"
+  },
+  {
+    "nameToSearch": "Zam Wesell",
+    "title": "Zam Wesell | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Zam_Wesell",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/7/7d/Clawdite.jpg/revision/latest?cb=20190309225803",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAo-pyfqNIg4JvcP8OJRxxoDZUgE__si35PgiVaj8Y6WgGikQ&s"
+  },
+  {
+    "nameToSearch": "Luminara Unduli",
+    "title": "Luminara Unduli | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Luminara_Unduli",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/2/21/LuminaraHS-SWE_%28new%29.png/revision/latest?cb=20200402110650",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmecvYfmXKIfQMu7oOuKHqqYibX4hLI9XEtpGrM5yDn9j7za_E&s"
+  },
+  {
+    "nameToSearch": "Barriss Offee",
+    "title": "Barriss Offee | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Barriss_Offee",
+    "original": "https://static.wikia.nocookie.net/starwars/images/a/a4/BarrissOffee-OP.png/revision/latest?cb=20211214033336",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBlvn1-OjxGhTbsjxd9PaBq_dhcBiHprQ-yNiE9lDDyT6mWQ&s"
+  },
+  {
+    "nameToSearch": "Bail Prestor Organa",
+    "title": "Bail Prestor Organa | Star Wars Wiki ...",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Bail_Prestor_Organa/Leyendas",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/5/50/Bail_Organa_Mug.jpg/revision/latest?cb=20161026202616",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCUlMcFbVpXHdDTRrNZPZqp5hJ1zaRO-3zYt3z8klcRLV87wk&s"
+  },
+  {
+    "nameToSearch": "Dexter Jettster",
+    "title": "Dexter Jettster | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Dexter_Jettster",
+    "original": "https://static.wikia.nocookie.net/starwars/images/1/1c/DexterHS-SWE.png/revision/latest?cb=20220910154422",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf2QBfZVTAnTs5tNQre-E8jPnbXv9Kpum-hncBH_jl0fT15pEc&s"
+  },
+  {
+    "nameToSearch": "Dooku",
+    "title": "Dooku | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Dooku/Legends",
+    "original": "https://static.wikia.nocookie.net/starwars/images/f/fa/DookuHS-SWILotS.png/revision/latest?cb=20190426043747",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIueWVx0SghaJI7tFFTYQGmTC6GZGGwCfAMXBAtLvEoJP1xQ&s"
+  },
+  {
+    "nameToSearch": "Jango Fett",
+    "title": "Jango Fett | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Jango_Fett/Legends",
+    "original": "https://static.wikia.nocookie.net/starwars/images/0/03/Jango_OS_TPB.png/revision/latest?cb=20181120053551",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuyVpB9WT3EX0ZNsUjJM43aJPINuHyMkcyvRgBdseBm-5gITIo&s"
+  },
+  {
+    "nameToSearch": "Tarfful",
+    "title": "Tarfful | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Tarfful",
+    "original": "https://static.wikia.nocookie.net/starwars/images/d/d9/Tarfful-TSWB.png/revision/latest?cb=20201025195948",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkOJ02y5VlzgJbiX1_pzb9pMtBlM4eGBmt4tnIb-of_UpSqf_n&s"
+  },
+  {
+    "nameToSearch": "Jocasta Nu",
+    "title": "Jocasta Nu | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Jocasta_Nu",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/1/15/Jocasta_Nu_SWE.png/revision/latest?cb=20180910214036",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOLcFOQI4yda7r3Bx35Svgk7yOGGo_PAkQ8LLxbOglFnor2iQ&s"
+  },
+  {
+    "nameToSearch": "Shaak Ti",
+    "title": "Shaak Ti | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Shaak_Ti",
+    "original": "https://static.wikia.nocookie.net/starwars/images/2/20/Shaak_Ti_closeup-SWE.png/revision/latest?cb=20220910224853",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnAnCsVU683qOM03fVxGACw3rD1WZdHjNWwy2YfulXwUx8f-et&s"
+  },
+  {
+    "nameToSearch": "Wat Tambor",
+    "title": "Wat Tambor | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Wat_Tambor",
+    "original": "https://static.wikia.nocookie.net/starwars/images/a/a5/Wat_Tambor.png/revision/latest?cb=20221007043044",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStyrycwUJmjFVzBqPntA6si0sxqLwfFva7Nza1KbjLCHtvtTHN&s"
+  },
+  {
+    "nameToSearch": "R4-P17",
+    "title": "R4-P17 | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/R4-P17",
+    "original": "https://static.wikia.nocookie.net/starwars/images/5/52/R4-P17_USWNE.png/revision/latest?cb=20221105232252",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpAvaA2o-yLmmCKqI-X0YXXJhIJB2rhOkRlsXDVXcGTl_YJfc&s"
+  },
+  {
+    "nameToSearch": "Lama Su",
+    "title": "Lama Su | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Lama_Su",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/7/73/Lama_Su.jpg/revision/latest?cb=20160205192311",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwEewEexoOQzSZ-IIXq8gMF4ag4qN_211XwBFTCTDS19LA-pYH&s"
+  },
+  {
+    "nameToSearch": "Grievous",
+    "title": "General Grievous | StarWars.com",
+    "source": "www.starwars.com",
+    "link": "https://www.starwars.com/databank/general-grievous",
+    "original": "https://lumiere-a.akamaihd.net/v1/images/General-Grievous_c9df9cb5.jpeg?region=0%2C8%2C1200%2C600",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR608C_EbXtzJaL7V_lJH9r2NVQdikbuZeWc--rTYdrVCunR0W4&s"
+  },
+  {
+    "nameToSearch": "Raymus Antilles",
+    "title": "Raymus Antilles | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Raymus_Antilles",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/8/80/Raymus_card_trader.png/revision/latest?cb=20200416114754",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRejs2jH3dkQsY6MuxKiYkqHHOrPHgh3_e96Ia29F-qEzSS8fw&s"
+  },
+  {
+    "nameToSearch": "San Hill",
+    "title": "San Hill | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/San_Hill",
+    "original": "https://static.wikia.nocookie.net/starwars/images/6/63/SanHill-BaseSeries5.png/revision/latest?cb=20221007045541",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH8Glxr4fBYaBS3l8iMFX6GPcZvfpgIKkOniHcDEnr-Qwe3IA&s"
+  },
+  {
+    "nameToSearch": "Taun We",
+    "title": "Taun We | StarWars.com",
+    "source": "www.starwars.com",
+    "link": "https://www.starwars.com/databank/taun-we",
+    "original": "https://lumiere-a.akamaihd.net/v1/images/the-bad-batch-bounty-lost-story-gallery-03_1878426f.jpeg?region=158%2C0%2C964%2C542",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DhzgsXxnNs9qcrHnhmTkuu09V50qK8cZhzanbhcX72Un5RZl&s"
+  },
+  {
+    "nameToSearch": "Tion Medon",
+    "title": "Tion Medon | Wookieepedia | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/wiki/Tion_Medon",
+    "original": "https://static.wikia.nocookie.net/starwars/images/1/16/TionMedon-SWI90.png/revision/latest?cb=20221112201253",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7iZ0HszL6D-14l9TOBLD6epbAxERcHhcGnJA3GkutzQuRSlY&s"
+  },
+  {
+    "nameToSearch": "Sly Moore",
+    "title": "Sly Moore | Star Wars Wiki | Fandom",
+    "source": "starwars.fandom.com",
+    "link": "https://starwars.fandom.com/es/wiki/Sly_Moore",
+    "original": "https://static.wikia.nocookie.net/esstarwars/images/e/ec/SlyMooreIsWatchingYouPoop-OfficialPix.jpg/revision/latest?cb=20180108015215",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrVppErJj1cOJXIAnM9CqeRBA6JejZ0K9QZ0oZF52G5AUBQNE&s"
+  }
+]

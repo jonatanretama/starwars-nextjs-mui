@@ -19,6 +19,7 @@ export default function People() {
       },
     },
   });
+
   return (
     <>
       <Head>

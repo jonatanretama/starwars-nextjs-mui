@@ -1,6 +1,8 @@
 import { Box } from '@mui/material';
+import { stringToSlug } from '@utils/string-to-slug';
 import Image from 'next/image';
 import type { FC } from 'react';
+import { useRouter } from 'next/router';
 
 export type TResumeCardProps = {
   name: string;
@@ -9,7 +11,8 @@ export type TResumeCardProps = {
 
 export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
   // TODO: Add syles and responsive
-  // TODO: Set dynamic image
+  const router = useRouter();
+  const actualPage = router.pathname.replace('/', '');
 
   return (
     <Box
@@ -22,15 +25,14 @@ export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
         filter: 'drop-shadow(1px 0px 10px rgba(200, 200, 200, 0.3))',
       }}>
       <Box sx={{ width: '100%', height: '100%' }}>
-        {/* TODO: Set dynamic image with dynamic alt */}
         <Image
           priority
-          src="/images/anakin-sky-walker.webp"
-          alt="Imagen de Anakin Skywalker"
+          src={`/images/${actualPage}/${stringToSlug(name)}.jpg`}
+          alt={`Picture of ${name}`}
           quality={50}
           width={600}
           height={600}
-          blurDataURL={'/images/anakin-sky-walker.webp'}
+          blurDataURL={`/images/${actualPage}/${stringToSlug(name)}.jpg`}
           sizes="(max-width: 768px) 100vw,
                 (min-width: 1200px) 50vw,
                 33vw"
@@ -38,6 +40,7 @@ export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
             width: '100%',
             height: '100%',
             objectFit: 'cover',
+            objectPosition: 'top',
             borderRadius: '20px 20px 0 20px',
           }}
         />
