@@ -4,6 +4,7 @@ import axios from 'axios';
 import { stringToSlug } from '@utils/string-to-slug';
 import { TypesSwapi } from '@models';
 
+// TODO: Specs for coverage
 const downloadImage = async (url: string, path: string) => {
   axios({
     method: 'get',
@@ -90,7 +91,7 @@ const getImagesData = (toSearch: string, type: TypesSwapi) => {
 
 // get images with query param
 export default (req: any, res: any) => {
-  const { search, type }: { search: string; type: TypesSwapi } = req.query;
+  const { search, type } = req.query as { search: string; type: TypesSwapi };
   getImagesData(search, type);
   res.status(200).json({ message: 'image scrapped' });
 };

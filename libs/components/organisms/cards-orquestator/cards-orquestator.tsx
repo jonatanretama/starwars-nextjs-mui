@@ -4,7 +4,6 @@ import { PaginationCard } from '@atoms/pagination-card';
 import { ListCards } from '@molecules/list-cards';
 import { getLengthForPagination } from '@utils/get-swapi-url-data';
 import type { TResultsData } from '@models';
-// import { useRouter } from 'next/router';
 
 export type TCardOrquestatorProps = {
   setPage: (page: number) => void;
@@ -18,12 +17,8 @@ export const CardsOrquestator: FC<TCardOrquestatorProps> = ({
   results,
   page,
 }) => {
-  // const router = useRouter();
-
-  // TODO: Implement router logic to set the page number in the url and also get the page number from the url
-  const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
+  const handleChange = (_event: React.ChangeEvent<unknown>, value: number) => {
     setPage(value);
-    // router.replace({pathname: })
   };
 
   return (

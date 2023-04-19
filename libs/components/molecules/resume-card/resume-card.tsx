@@ -14,6 +14,10 @@ export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
   const router = useRouter();
   const actualPage = router.pathname.replace('/', '');
 
+  const pushToDynamicPage = () => {
+    router.push({ pathname: `/${actualPage}/${id}` });
+  };
+
   return (
     <Box
       sx={{
@@ -23,7 +27,8 @@ export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
         display: 'flex',
         borderRadius: { xs: '20px 20px 0 0', sm: '20px 20px 0 20px' },
         filter: 'drop-shadow(1px 0px 10px rgba(200, 200, 200, 0.3))',
-      }}>
+      }}
+      onClick={() => pushToDynamicPage()}>
       <Box sx={{ width: '100%', height: '100%' }}>
         <Image
           priority
