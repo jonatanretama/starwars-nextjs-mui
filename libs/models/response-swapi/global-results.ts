@@ -18,3 +18,11 @@ export type TResultsData = {
   | TStarshipsAttrs[]
   | TVehiclesAttrs[];
 };
+
+export type TypesSwapi =
+  | 'people'
+  | 'planets'
+  | 'films'
+  | 'species'
+  | 'vehicles'
+  | 'starships';

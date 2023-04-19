@@ -1,15 +1,19 @@
 import Home from '../pages/index';
-import { render } from '@testing-library/react';
+import { render, waitFor } from '@testing-library/react';
 import { MainProvider } from '@provider/main-provider';
 
 describe('Home', () => {
-  it('should render successfully', () => {
+  it('should render successfully', async () => {
     const { baseElement } = render(<Home />, { wrapper: MainProvider });
-    expect(baseElement).toBeTruthy();
+    await waitFor(() => {
+      expect(baseElement).toBeTruthy();
+    });
   });
 
-  it('should render PeopleCardDetails', () => {
+  it('should render PeopleCardDetails', async () => {
     const { getByRole } = render(<Home />, { wrapper: MainProvider });
-    expect(getByRole('img', { name: /imagen/i })).toBeInTheDocument();
+    await waitFor(() => {
+      expect(getByRole('img', { name: /imagen/i })).toBeInTheDocument();
+    });
   });
 });
