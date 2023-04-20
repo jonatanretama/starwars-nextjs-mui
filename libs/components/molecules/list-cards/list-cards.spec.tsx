@@ -4,12 +4,6 @@ import { ListCards } from './list-cards';
 import type { TResultsData } from '@models';
 import { PEOPLE_DATA, PLANETS_DATA, FILMS_DATA } from '@mocks';
 
-jest.mock('next/router', () => ({
-  useRouter: () => ({
-    pathname: '/people',
-  }),
-}));
-
 describe('ListCards', () => {
   let renderResult: RenderResult;
 

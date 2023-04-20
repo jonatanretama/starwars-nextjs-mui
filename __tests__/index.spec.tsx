@@ -13,7 +13,7 @@ describe('Home', () => {
   it('should render PeopleCardDetails', async () => {
     const { getByRole } = render(<Home />, { wrapper: MainProvider });
     await waitFor(() => {
-      expect(getByRole('img', { name: /imagen/i })).toBeInTheDocument();
+      expect(getByRole('img', { name: /picture of/i })).toBeInTheDocument();
     });
   });
 });

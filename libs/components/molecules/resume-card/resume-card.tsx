@@ -12,7 +12,8 @@ export type TResumeCardProps = {
 export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
   // TODO: Add syles and responsive
   const router = useRouter();
-  const actualPage = router.pathname.replace('/', '');
+  const pathname = router.pathname;
+  const actualPage = pathname.split('/')[1];
 
   const pushToDynamicPage = () => {
     router.push({ pathname: `/${actualPage}/${id}` });
@@ -20,6 +21,7 @@ export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
 
   return (
     <Box
+      data-testid="resume-card"
       sx={{
         width: { xs: '100%', md: 200, xl: 300 },
         height: { xs: 300, md: 300, xl: 400 },

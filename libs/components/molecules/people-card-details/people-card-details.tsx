@@ -36,7 +36,7 @@ export const PeopleCardDetails: FC<TPeopleCardDetailsProps> = ({
     },
   });
 
-  // Get /planets/:id
+  // TODO: Get /planets/:id
   useGetPlanetsById({
     id: planetId,
     options: {
@@ -84,11 +84,13 @@ export const PeopleCardDetails: FC<TPeopleCardDetailsProps> = ({
                 src={`/images/${actualPage}/${stringToSlug(
                   peopleDetails.name
                 )}.jpg`}
-                alt="Imagen de Anakin Skywalker"
+                alt={`picture of ${peopleDetails.name}`}
                 quality={50}
                 width={600}
                 height={600}
-                blurDataURL={'/images/anakin-sky-walker.webp'}
+                blurDataURL={`/images/${actualPage}/${stringToSlug(
+                  peopleDetails.name
+                )}.jpg`}
                 sizes="(max-width: 768px) 100vw,
               (min-width: 1200px) 50vw,
               33vw"
