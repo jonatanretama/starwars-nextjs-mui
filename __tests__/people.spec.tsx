@@ -2,12 +2,6 @@ import People from '../pages/people';
 import { render, waitFor } from '@testing-library/react';
 import { MainProvider } from '@provider/main-provider';
 
-jest.mock('next/router', () => ({
-  useRouter: () => ({
-    pathname: '/people',
-  }),
-}));
-
 describe('People page', () => {
   it('should render successfully', async () => {
     const { baseElement } = render(<People />, { wrapper: MainProvider });

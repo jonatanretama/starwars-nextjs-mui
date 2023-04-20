@@ -10,12 +10,6 @@ jest.mock('@provider/main-provider', () => {
   return { MainProvider };
 });
 
-jest.mock('next/router', () => ({
-  useRouter: () => ({
-    pathname: '/',
-  }),
-}));
-
 const MockComponent = () => <div>Mock Component</div>;
 
 const mockAppProps: AppExtendedProps = {

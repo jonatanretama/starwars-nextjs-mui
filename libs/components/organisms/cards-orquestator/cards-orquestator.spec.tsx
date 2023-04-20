@@ -3,12 +3,6 @@ import { CardsOrquestator } from './cards-orquestator';
 import { PEOPLE_DATA } from '@mocks';
 import { MainProvider } from '@provider/main-provider';
 
-jest.mock('next/router', () => ({
-  useRouter: () => ({
-    pathname: '/people',
-  }),
-}));
-
 describe('CardsOrquestator', () => {
   const mockFn = jest.fn();
   it('should render CardsOrquestator and click on pagination', async () => {
