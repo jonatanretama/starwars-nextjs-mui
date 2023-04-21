@@ -1,0 +1,50 @@
+[
+  {
+    "nameToSearch": "Attack of the Clones",
+    "title": "Star Wars: Episode II - Attack of the ...",
+    "source": "www.imdb.com",
+    "link": "https://www.imdb.com/title/tt0121765/",
+    "original": "https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCp3zJh6_wqs4eoKncL-d1-nj3q88YKgMEZ6ZetAQJ8AJZNvnJ&s"
+  },
+  {
+    "nameToSearch": "Return of the Jedi",
+    "title": "Return of the Jedi (1983 ...",
+    "source": "www.imdb.com",
+    "link": "https://www.imdb.com/title/tt0086190/",
+    "original": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW9NLFS1OBRsCGlpbo3aWFtdK8IiG00pHIxhGMOhj0c8FI16k&s"
+  },
+  {
+    "nameToSearch": "The Phantom Menace",
+    "title": "Star Wars: Episode I - The Phantom ...",
+    "source": "www.imdb.com",
+    "link": "https://www.imdb.com/title/tt0120915/",
+    "original": "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaKtLaNkUJuF8pvA7tvlHYSKbpeQFrbrZGjcikwb7PKle8-Jy&s"
+  },
+  {
+    "nameToSearch": "The Empire Strikes Back",
+    "title": "Star Wars: Episode V - The Empire ...",
+    "source": "www.imdb.com",
+    "link": "https://www.imdb.com/title/tt0080684/",
+    "original": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKOU5Rvcm0KLtrdlyktsIpAmc-Qh-68dq5y5nkSf1FnXYNze6x&s"
+  },
+  {
+    "nameToSearch": "A New Hope",
+    "title": "Star Wars: Episode IV - A New Hope ...",
+    "source": "www.imdb.com",
+    "link": "https://www.imdb.com/title/tt0076759/",
+    "original": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnVl9WF3hs-3fw7r21EWPf3P1qzg4EbSvdoMCqHQokYWuI3zy-&s"
+  },
+  {
+    "nameToSearch": "Revenge of the Sith",
+    "title": "Star Wars: Episode III - Revenge of the ...",
+    "source": "www.imdb.com",
+    "link": "https://www.imdb.com/title/tt0121766/",
+    "original": "https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLFWhG_bDjGEbUuqwtaZB3XTKqYKQeJt9C8OyLyDSGb8Yo0E&s"
+  }
+]

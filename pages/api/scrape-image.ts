@@ -72,7 +72,7 @@ export default (req: any, res: any) => {
 //     try {
 //       await axios.get('/api/scrape-image', {
 //         params: {
-//           query: item.name,
+//           search: item.name,
 //           type: 'people' as TypesSwapi,
 //         },
 //       });
