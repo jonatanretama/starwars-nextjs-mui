@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { PeopleCardDetails } from '@molecules/people-card-details';
+import { ContentType } from '@molecules/content-type';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <PeopleCardDetails />
+        <ContentType />
       </main>
     </>
   );

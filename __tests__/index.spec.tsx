@@ -10,10 +10,12 @@ describe('Home', () => {
     });
   });
 
-  it('should render PeopleCardDetails', async () => {
+  it('should render Cards with content types', async () => {
     const { getByRole } = render(<Home />, { wrapper: MainProvider });
     await waitFor(() => {
-      expect(getByRole('img', { name: /picture of/i })).toBeInTheDocument();
+      expect(
+        getByRole('img', { name: /picture of species/i })
+      ).toBeInTheDocument();
     });
   });
 });

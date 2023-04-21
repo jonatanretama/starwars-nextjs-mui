@@ -20,6 +20,6 @@ describe('CardsOrquestator', () => {
     await fireEvent.click(pagination);
 
     expect(getByText(/Luke Skywalker/i)).toBeInTheDocument();
-    expect(getByText(/C-3PO - 2/i)).toBeInTheDocument();
+    expect(getByText(/C-3PO/i)).toBeInTheDocument();
   });
 });

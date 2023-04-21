@@ -18,7 +18,7 @@ export const ListCards: FC<TResultsData> = ({ results }) => {
       {results.map(item => (
         <ResumeCard
           key={item.url}
-          name={'name' in item ? item.name : item.title}
+          nameOrPath={'name' in item ? item.name : item.title}
           id={getSwapiId(item.url)}
         />
       ))}

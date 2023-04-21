@@ -5,18 +5,27 @@ import type { FC } from 'react';
 import { useRouter } from 'next/router';
 
 export type TResumeCardProps = {
-  name: string;
-  id: string;
+  nameOrPath: string;
+  id?: string;
+  title?: string;
 };
 
-export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
+export const ResumeCard: FC<TResumeCardProps> = ({
+  nameOrPath: name,
+  id,
+  title,
+}) => {
   // TODO: Add syles and responsive
   const router = useRouter();
   const pathname = router.pathname;
   const actualPage = pathname.split('/')[1];
+  const customSrc = id
+    ? `/images/${actualPage}/${stringToSlug(name)}.jpg`
+    : `/images/content/${name}.jpg`;
 
-  const pushToDynamicPage = () => {
-    router.push({ pathname: `/${actualPage}/${id}` });
+  const pushTo = () => {
+    const dynamicPath = id ? `/${actualPage}/${id}` : `/${name}`;
+    router.push({ pathname: dynamicPath });
   };
 
   return (
@@ -30,16 +39,16 @@ export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
         borderRadius: { xs: '20px 20px 0 0', sm: '20px 20px 0 20px' },
         filter: 'drop-shadow(1px 0px 10px rgba(200, 200, 200, 0.3))',
       }}
-      onClick={() => pushToDynamicPage()}>
+      onClick={() => pushTo()}>
       <Box sx={{ width: '100%', height: '100%' }}>
         <Image
           priority
-          src={`/images/${actualPage}/${stringToSlug(name)}.jpg`}
+          src={customSrc}
           alt={`Picture of ${name}`}
           quality={50}
           width={600}
           height={600}
-          blurDataURL={`/images/${actualPage}/${stringToSlug(name)}.jpg`}
+          blurDataURL={customSrc}
           sizes="(max-width: 768px) 100vw,
                 (min-width: 1200px) 50vw,
                 33vw"
@@ -51,7 +60,7 @@ export const ResumeCard: FC<TResumeCardProps> = ({ name, id }) => {
             borderRadius: '20px 20px 0 20px',
           }}
         />
-        {`${name} - ${id}`}
+        {`${title ?? name}`}
       </Box>
     </Box>
   );
