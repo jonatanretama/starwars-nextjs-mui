@@ -67,13 +67,17 @@ export default (req: any, res: any) => {
 };
 
 // Example to scrape images on React component
+// import { TypesSwapi } from '@models';
+// import axios from 'axios';
+// import { Button } from '@mui/material';
+
 // const handleClick = async () => {
 //   data.data.results.map(async item => {
 //     try {
 //       await axios.get('/api/scrape-image', {
 //         params: {
-//           query: item.name,
-//           type: 'people' as TypesSwapi,
+//           search: item.name, // or item.title
+//           type: 'vehicles' as TypesSwapi,
 //         },
 //       });
 //     } catch (error) {
