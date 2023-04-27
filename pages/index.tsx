@@ -1,5 +1,9 @@
 import Head from 'next/head';
 import { ContentType } from '@molecules/content-type';
+import { SpatialLayout, BoxAnimation } from '@templates/spatial-layout';
+import { Box, Typography } from '@mui/material';
+import Link from 'next/link';
+import { ChevronButton } from '@atoms/chevron-button';
 
 export default function Home() {
   return (
@@ -11,7 +15,37 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <ContentType />
+        <SpatialLayout>
+          <Box
+            sx={{
+              width: '100vw',
+              height: { xs: '100vh', md: '80vh' },
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              position: 'relative',
+            }}>
+            <BoxAnimation>
+              <Typography variant="h1">star</Typography>
+              <Typography
+                variant="body1"
+                sx={{ color: '#fff!important', mb: -2 }}>
+                Guía Visual
+              </Typography>
+              <Typography variant="h1">wars</Typography>
+            </BoxAnimation>
+            <Link href="#main-content" scroll={false} passHref>
+              <Box
+                sx={{ position: 'absolute', ml: -3, mt: { xs: 30, md: 20 } }}>
+                <ChevronButton />
+              </Box>
+            </Link>
+          </Box>
+          <Box id="main-content" sx={{ pb: 10 }}>
+            <ContentType />
+          </Box>
+        </SpatialLayout>
       </main>
     </>
   );

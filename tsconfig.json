@@ -51,7 +51,9 @@
       "@hooks": ["libs/hooks/index.ts"],
       "@hooks/*": ["libs/hooks/*"],
       "@mocks": ["libs/mocks/index.ts"],
-      "@mocks/*": ["libs/mocks/*"]
+      "@mocks/*": ["libs/mocks/*"],
+      "@templates/*": ["libs/components/templates/*"],
+      "@templates": ["libs/components/templates/index.ts"]
     },
     "noEmit": true,
     "incremental": true,

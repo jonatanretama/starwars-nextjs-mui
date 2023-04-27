@@ -17,6 +17,24 @@ const TimeBurner = localFont({
   display: 'auto',
 });
 
+const StarWars = localFont({
+  src: [
+    {
+      path: '../../../public/fonts/Starjhol.ttf',
+    },
+  ],
+  display: 'auto',
+});
+
+const Droid = localFont({
+  src: [
+    {
+      path: '../../../public/fonts/droid.otf',
+    },
+  ],
+  display: 'auto',
+});
+
 const theme = createTheme({
   palette: {
     text: {
@@ -64,7 +82,7 @@ const theme = createTheme({
       },
     },
     h1: {
-      fontFamily: TimeBurner.style.fontFamily,
+      fontFamily: StarWars.style.fontFamily,
       fontSize: '5rem',
       fontWeight: 'bold',
       '@media (min-width: 600px)': {
@@ -72,11 +90,11 @@ const theme = createTheme({
       },
     },
     h2: {
-      fontFamily: TimeBurner.style.fontFamily,
+      fontFamily: StarWars.style.fontFamily,
       fontSize: '3rem',
       fontWeight: 'bold',
       '@media (min-width: 600px)': {
-        fontSize: '3.5rem',
+        fontSize: '4rem',
       },
     },
     h3: {
@@ -85,6 +103,14 @@ const theme = createTheme({
       fontWeight: 'bold',
       '@media (min-width: 600px)': {
         fontSize: '2.5rem',
+      },
+    },
+    h4: {
+      fontFamily: Droid.style.fontFamily,
+      fontSize: '1.6rem',
+      fontWeight: 'bold',
+      '@media (min-width: 600px)': {
+        fontSize: '2rem',
       },
     },
     h6: {
