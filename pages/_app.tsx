@@ -1,4 +1,3 @@
-import '../styles/globals.css';
 import type { NextPage } from 'next';
 import type { EmotionCache } from '@emotion/cache';
 import { lazy, Suspense, ReactNode } from 'react';

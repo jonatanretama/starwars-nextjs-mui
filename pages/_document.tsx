@@ -12,7 +12,7 @@ import { createEmotionCache } from '@ui/config/create-emotion-cache';
 export default class Document extends NextDocument {
   override render() {
     return (
-      <Html lang="es">
+      <Html lang="es" style={{ scrollBehavior: 'smooth' }}>
         <Head>
           <link
             rel="stylesheet"

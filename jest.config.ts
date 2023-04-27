@@ -51,6 +51,7 @@ const customJestConfig = {
     '^@pages(.*)$': '<rootDir>/pages$1',
     '^@ui(.*)$': '<rootDir>/libs/ui$1',
     '^@api(.*)$': '<rootDir>/libs/api$1',
+    '^@templates(.*)$': '<rootDir>/libs/templates$1',
   },
 };
 
