@@ -17,7 +17,7 @@ export const ContentType: FC = () => {
       sx={{
         display: 'flex',
         flexWrap: 'wrap',
-        gap: 4,
+        gap: 10,
         justifyContent: 'center',
         alignItems: 'center',
       }}>

@@ -17,10 +17,19 @@ const TimeBurner = localFont({
   display: 'auto',
 });
 
-const StarWars = localFont({
+const StarJHol = localFont({
   src: [
     {
       path: '../../../public/fonts/Starjhol.ttf',
+    },
+  ],
+  display: 'auto',
+});
+
+const StrjMono = localFont({
+  src: [
+    {
+      path: '../../../public/fonts/Strjmono.ttf',
     },
   ],
   display: 'auto',
@@ -35,6 +44,20 @@ const Droid = localFont({
   display: 'auto',
 });
 
+const Advent = localFont({
+  src: [
+    {
+      path: '../../../public/fonts/advent-pro-italic.ttf',
+      style: 'italic',
+    },
+    {
+      path: '../../../public/fonts/advent-pro-normal.ttf',
+      style: 'normal',
+    },
+  ],
+  display: 'auto',
+});
+
 const theme = createTheme({
   palette: {
     text: {
@@ -43,8 +66,9 @@ const theme = createTheme({
       disabled: '#23336240',
     },
     primary: {
-      main: '#abc312',
+      main: '#fad510',
       dark: '#1D1E1F',
+      contrastText: '#FFFFFF',
     },
     secondary: {
       main: '#eaf3a9',
@@ -81,8 +105,19 @@ const theme = createTheme({
         fontSize: '1.2rem',
       },
     },
+    body2: {
+      fontFamily: Advent.style.fontFamily,
+      fontSize: '0.875rem',
+      fontWeight: 'normal',
+      '@media (min-width: 600px)': {
+        fontSize: '1rem',
+      },
+      '@media (min-width: 900px)': {
+        fontSize: '1.2rem',
+      },
+    },
     h1: {
-      fontFamily: StarWars.style.fontFamily,
+      fontFamily: StarJHol.style.fontFamily,
       fontSize: '5rem',
       fontWeight: 'bold',
       '@media (min-width: 600px)': {
@@ -90,7 +125,7 @@ const theme = createTheme({
       },
     },
     h2: {
-      fontFamily: StarWars.style.fontFamily,
+      fontFamily: StarJHol.style.fontFamily,
       fontSize: '3rem',
       fontWeight: 'bold',
       '@media (min-width: 600px)': {
@@ -106,7 +141,7 @@ const theme = createTheme({
       },
     },
     h4: {
-      fontFamily: Droid.style.fontFamily,
+      fontFamily: StrjMono.style.fontFamily,
       fontSize: '1.6rem',
       fontWeight: 'bold',
       '@media (min-width: 600px)': {
@@ -114,7 +149,7 @@ const theme = createTheme({
       },
     },
     h6: {
-      fontFamily: TimeBurner.style.fontFamily,
+      fontFamily: Droid.style.fontFamily,
       fontWeight: 'bold',
       fontSize: '1.2rem',
       '@media (min-width: 600px)': {

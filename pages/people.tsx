@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { CardsOrquestator } from '@organisms/cards-orquestator';
 import { useState } from 'react';
 import { useGetPeople } from '@hooks';
+import { SpatialLayout } from '@templates/spatial-layout';
 
 export default function People() {
   const [page, setPage] = useState(1);
@@ -29,14 +30,16 @@ export default function People() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {isSuccess && (
-          <CardsOrquestator
-            page={page}
-            setPage={setPage}
-            countTotalItems={countTotalItems}
-            results={data.data.results}
-          />
-        )}
+        <SpatialLayout>
+          {isSuccess && (
+            <CardsOrquestator
+              page={page}
+              setPage={setPage}
+              countTotalItems={countTotalItems}
+              results={data.data.results}
+            />
+          )}
+        </SpatialLayout>
       </main>
     </>
   );

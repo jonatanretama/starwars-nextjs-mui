@@ -18,6 +18,12 @@ export const PaginationCard: FC<TPaginationCardProps> = ({
         count={getLengthForPagination()}
         page={page}
         onChange={handleChange}
+        sx={{
+          '.MuiPaginationItem-root': { color: '#fff!important' },
+          '.MuiButtonBase-root': { color: '#fff!important' },
+        }}
+        variant="outlined"
+        color="primary"
       />
     </Stack>
   </Box>

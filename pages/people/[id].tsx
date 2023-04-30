@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { PeopleCardDetails } from '@molecules/people-card-details';
+import { SpatialLayout } from '@templates/spatial-layout';
 
 export default function PeopleId() {
   const router = useRouter();
@@ -16,14 +17,16 @@ export default function PeopleId() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {queryId} - {router.pathname}
-        {pathname}
-        {queryId && (
-          <PeopleCardDetails
-            idToSearch={queryId.toString()}
-            actualPage={pathname}
-          />
-        )}
+        <SpatialLayout>
+          {queryId} - {router.pathname}
+          {pathname}
+          {queryId && (
+            <PeopleCardDetails
+              idToSearch={queryId.toString()}
+              actualPage={pathname}
+            />
+          )}
+        </SpatialLayout>
       </main>
     </>
   );

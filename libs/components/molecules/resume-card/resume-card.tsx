@@ -1,8 +1,9 @@
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { stringToSlug } from '@utils/string-to-slug';
 import Image from 'next/image';
 import type { FC } from 'react';
 import { useRouter } from 'next/router';
+import { ResumeCardStyled } from './resume-card.styles';
 
 export type TResumeCardProps = {
   nameOrPath: string;
@@ -29,39 +30,33 @@ export const ResumeCard: FC<TResumeCardProps> = ({
   };
 
   return (
-    <Box
+    <ResumeCardStyled
       data-testid="resume-card"
-      sx={{
-        width: { xs: '100%', md: 200, xl: 300 },
-        height: { xs: 300, md: 300, xl: 400 },
-        bgcolor: 'primary.dark',
-        display: 'flex',
-        borderRadius: { xs: '20px 20px 0 0', sm: '20px 20px 0 20px' },
-        filter: 'drop-shadow(1px 0px 10px rgba(200, 200, 200, 0.3))',
-      }}
-      onClick={() => pushTo()}>
-      <Box sx={{ width: '100%', height: '100%' }}>
-        <Image
-          priority
-          src={customSrc}
-          alt={`Picture of ${name}`}
-          quality={50}
-          width={600}
-          height={600}
-          blurDataURL={customSrc}
-          sizes="(max-width: 768px) 100vw,
-                (min-width: 1200px) 50vw,
-                33vw"
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'top',
-            borderRadius: '20px 20px 0 20px',
-          }}
-        />
-        {`${title ?? name}`}
+      onClick={() => pushTo()}
+      isprimarystyle={!!title ?? undefined}>
+      <Box sx={{ width: '100%', height: '75%' }} className="shadow">
+        <Box sx={{ width: '100%', height: '100%' }} className="image-container">
+          <Image
+            className="image"
+            src={customSrc}
+            alt={`Picture of ${name}`}
+            quality={50}
+            width={600}
+            height={600}
+          />
+        </Box>
+        <Box className="title-container">
+          <Typography
+            className="title"
+            variant={title ? 'h4' : 'body1'}
+            sx={{ fontWeight: 'bold' }}>
+            {`${title ?? name}`}
+          </Typography>
+          <Typography variant="h6" className="droid">
+            SW
+          </Typography>
+        </Box>
       </Box>
-    </Box>
+    </ResumeCardStyled>
   );
 };

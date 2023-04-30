@@ -49,9 +49,11 @@ export const PeopleCardDetails: FC<TPeopleCardDetailsProps> = ({
 
   useEffect(() => {
     if (!isSuccess) return;
-
-    setPlanetId(getSwapiId(peopleDetails?.homeworld));
-  }, [isSuccess]);
+    if (peopleDetails?.homeworld.length) {
+      setPlanetId(getSwapiId(peopleDetails.homeworld));
+    }
+    return;
+  }, [peopleDetails]);
 
   return (
     peopleDetails && (

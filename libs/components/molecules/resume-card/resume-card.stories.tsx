@@ -1,6 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react';
 import { ResumeCard } from './resume-card';
-import { peopleByIdHandler } from '@mocks';
 
 export default {
   title: 'Molecules/ResumeCard',
@@ -14,11 +13,8 @@ export default {
 type Template = StoryObj<typeof ResumeCard>;
 
 export const Default: Template = {
-  args: {},
+  args: {
+    nameOrPath: 'people',
+    title: 'A New Hope',
+  },
 };
-
-// Default.parameters = {
-//   msw: {
-//     handlers: [peopleByIdHandler],
-//   },
-// };
