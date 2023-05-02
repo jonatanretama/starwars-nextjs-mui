@@ -4,16 +4,14 @@ import styled from '@emotion/styled';
 import { theme } from '@ui';
 
 type TResumeCardStyledProps = {
-  isprimarystyle: boolean;
+  title?: string;
 };
 
 
 export const ResumeCardStyled = styled(Box) <TResumeCardStyledProps>`
-  ${({ isprimarystyle }) =>
-    isprimarystyle
+  ${({ title }) =>
+    title
       ? css`
-          background-color: ${theme.palette.primary.dark};
-          display: flex;
           clip-path: polygon(0 0, 100% 0, 100% 100%, 95% 100%, 90% 95%, 70% 95%, 65% 100%, 0 100%);
           /* filter: drop-shadow(1px 0px 10px rgba(200, 200, 200, 0.3)); */
           ${theme.breakpoints.up('xs')} {
@@ -37,35 +35,40 @@ export const ResumeCardStyled = styled(Box) <TResumeCardStyledProps>`
           }
         `
       : css`
-          background-color: ${theme.palette.primary.dark};
-          display: flex;
           clip-path: polygon(0 0, 100% 0, 100% 100%, 95% 100%, 90% 97%, 55% 97%, 50% 100%, 0 100%);
           .title-container {
             align-items: center;
           }
-          ${theme.breakpoints.up('xs')} {
+          ${theme.breakpoints.only('xs')} {
             width: 80%;
             height: 400px;
-            /* border-radius: 20px 20px 0 0; */
-          }
+            .title {
+              margin-left: 20px;
+              font-size: 1rem;
+            }
+            .droid {
+              margin-right: 20px;
+            }
+          };
           ${theme.breakpoints.up('sm')} {
             /* border-radius: 20px 20px 0 20px; */
             /* width: 200px; */
             width: calc(100% / 3);
-          }
+            height: 400px;
+          };
           ${theme.breakpoints.up('md')} {
             /* width: 200px; */
             width: calc(100% / 4);
-          }
+          };
           ${theme.breakpoints.up('lg')} {
             /* width: 200px; */
             width: calc(100% / 5);
-          }
+          };
           ${theme.breakpoints.up('xl')} {
             /* width: 300px; */
             width: calc(100% / 6);
             height: 400px;
-          }
+          };
         `}
     display: flex;
     flex-direction: column;

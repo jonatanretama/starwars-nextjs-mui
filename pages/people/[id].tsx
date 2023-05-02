@@ -18,8 +18,6 @@ export default function PeopleId() {
       </Head>
       <main>
         <SpatialLayout>
-          {queryId} - {router.pathname}
-          {pathname}
           {queryId && (
             <PeopleCardDetails
               idToSearch={queryId.toString()}

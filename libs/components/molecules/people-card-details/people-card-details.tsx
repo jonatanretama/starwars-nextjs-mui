@@ -36,7 +36,6 @@ export const PeopleCardDetails: FC<TPeopleCardDetailsProps> = ({
     },
   });
 
-  // TODO: Get /planets/:id
   useGetPlanetsById({
     id: planetId,
     options: {
@@ -55,9 +54,17 @@ export const PeopleCardDetails: FC<TPeopleCardDetailsProps> = ({
     return;
   }, [peopleDetails]);
 
-  return (
-    peopleDetails && (
-      <Box sx={{ m: 3 }}>
+  return !peopleDetails && !isSuccess ? (
+    <Typography variant="h2" color="primary.contrastText">
+      Loading...
+    </Typography>
+  ) : (
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: { xs: 'column', lg: 'row' },
+      }}>
+      <Box sx={{ width: { lg: '60%' } }}>
         <Box
           sx={{
             bgcolor: 'primary.dark',
@@ -72,15 +79,14 @@ export const PeopleCardDetails: FC<TPeopleCardDetailsProps> = ({
             }}>
             <Box
               sx={{
-                width: { xs: '100%', md: 350, xl: 500 },
-                height: { xs: 350, md: 350, xl: 500 },
+                width: { xs: '100%', md: 300, xl: 400 },
+                height: { xs: 350, md: 300, xl: 400 },
                 clipPath: {
                   xs: 'polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0)',
                   sm: 'polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%)',
                   xl: 'polygon(100% 70%, 98% 60%, 98% 40%, 100% 30%, 100% 0, 0 0, 0 100%, 100% 100%)',
                 },
               }}>
-              {/* TODO: Set dynamic image with dynamic alt */}
               <Image
                 priority
                 src={`/images/${actualPage}/${stringToSlug(
@@ -93,9 +99,6 @@ export const PeopleCardDetails: FC<TPeopleCardDetailsProps> = ({
                 blurDataURL={`/images/${actualPage}/${stringToSlug(
                   peopleDetails.name
                 )}.jpg`}
-                sizes="(max-width: 768px) 100vw,
-              (min-width: 1200px) 50vw,
-              33vw"
                 style={{
                   width: '100%',
                   height: '100%',
@@ -106,14 +109,13 @@ export const PeopleCardDetails: FC<TPeopleCardDetailsProps> = ({
               />
             </Box>
           </Box>
-
           <Box
             sx={{
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'center',
               alignItems: { xs: 'center', sm: 'flex-start' },
-              pl: { xs: 0, sm: 2 },
+              pl: { xs: 0, sm: 4, md: 6 },
               py: { xs: 2, sm: 0 },
             }}>
             {isSuccess &&
@@ -135,11 +137,9 @@ export const PeopleCardDetails: FC<TPeopleCardDetailsProps> = ({
               )}
           </Box>
         </Box>
-
-        {isSuccess && peopleDetails && (
-          <BottomTitleCard name={peopleDetails?.name} />
-        )}
+        <BottomTitleCard name={peopleDetails?.name} />
       </Box>
-    )
+      <Box bgcolor="tomato">Card</Box>
+    </Box>
   );
 };

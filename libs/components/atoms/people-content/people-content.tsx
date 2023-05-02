@@ -40,7 +40,7 @@ export const PeopleContent: FC<TPeopleContentProps> = ({
       sx={{ fontWeight: 'bold', display: 'flex', gap: 1 }}>
       {keyName}:&nbsp;
       <Typography variant="body1" color="text.secondary">
-        {value}
+        {keyName === 'Homeworld' ? 'Unknown' : value}
       </Typography>
     </Typography>
   );

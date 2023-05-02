@@ -33,7 +33,7 @@ export const ResumeCard: FC<TResumeCardProps> = ({
     <ResumeCardStyled
       data-testid="resume-card"
       onClick={() => pushTo()}
-      isprimarystyle={!!title ?? undefined}>
+      title={title ?? undefined}>
       <Box sx={{ width: '100%', height: '75%' }} className="shadow">
         <Box sx={{ width: '100%', height: '100%' }} className="image-container">
           <Image
