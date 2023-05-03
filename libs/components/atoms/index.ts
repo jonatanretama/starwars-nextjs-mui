@@ -3,3 +3,4 @@ export * from './people-content';
 export * from './pagination-card';
 export * from './chevron-button';
 export * from './planets';
+export * from './base-card-details';

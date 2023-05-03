@@ -2,6 +2,7 @@ import { StoryObj, Meta } from '@storybook/react';
 import { PeopleCardDetails } from './people-card-details';
 import { peopleByIdHandler } from '@mocks';
 
+// TODO: Fix story
 export default {
   title: 'Molecules/PeopleCardDetails',
   component: PeopleCardDetails,

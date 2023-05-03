@@ -19,6 +19,15 @@ export type TResultsData = {
   | TVehiclesAttrs[];
 };
 
+export type TResultsAttrs =
+  | TPeopleAttrs
+  | TFilmsAttrs
+  | TPlanetsAttrs
+  | TSpeciesAttrs
+  | TStarshipsAttrs
+  | TVehiclesAttrs
+  ;
+
 export type TypesSwapi =
   | 'people'
   | 'planets'
